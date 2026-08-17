@@ -22,11 +22,13 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate LunaTV configs
-        run: python3 scripts/update_lunatv_config.py
+        run: |
+          python3 scripts/update_lunatv_config.py
+          python3 scripts/aggregate_lunatv_configs.py
 
       - name: Verify generated configs
         run: |
-          python3 -m py_compile scripts/update_lunatv_config.py scripts/generate_bridge_lunatv_config.py bridge/tvbox_luna_bridge.py
+          python3 -m py_compile scripts/update_lunatv_config.py scripts/generate_bridge_lunatv_config.py scripts/aggregate_lunatv_configs.py bridge/tvbox_luna_bridge.py
           python3 - <<'PY'
           import json
           from pathlib import Path
@@ -34,24 +36,32 @@ jobs:
           all_sites = json.loads(Path('LunaTV-config-all.json').read_text(encoding='utf-8'))
           tvbox = json.loads(Path('tvbox-jsm.json').read_text(encoding='utf-8'))
           report = json.loads(Path('validation-report.json').read_text(encoding='utf-8'))
+          aggregated = json.loads(Path('aggregated.json').read_text(encoding='utf-8'))
+          aggregated_plus18 = json.loads(Path('aggregated-plus18.json').read_text(encoding='utf-8'))
           assert compatible['cache_time'] == 7200
           assert len(compatible['api_site']) == report['supported_count']
           assert len(compatible['api_site']) > 0
           assert len(all_sites['api_site']) == len(tvbox['sites'])
           assert Path('LunaTV-config.txt').read_text(encoding='utf-8').strip()
           assert Path('LunaTV-config-all.txt').read_text(encoding='utf-8').strip()
+          assert len(aggregated['api_site']) > len(compatible['api_site'])
+          assert len(aggregated_plus18['api_site']) >= len(aggregated['api_site'])
+          assert Path('aggregated.txt').read_text(encoding='utf-8').strip()
+          assert Path('aggregated-plus18.txt').read_text(encoding='utf-8').strip()
           print('supported_sites=', len(compatible['api_site']))
+          print('aggregated_sites=', len(aggregated['api_site']))
+          print('aggregated_plus18_sites=', len(aggregated_plus18['api_site']))
           print('all_sites=', len(all_sites['api_site']))
           PY
 
       - name: Commit changes
         run: |
-          if git diff --quiet -- LunaTV-config.txt LunaTV-config.json LunaTV-config-all.txt LunaTV-config-all.json tvbox-jsm.json validation-report.json; then
+          if git diff --quiet -- LunaTV-config.txt LunaTV-config.json LunaTV-config-all.txt LunaTV-config-all.json tvbox-jsm.json validation-report.json aggregated.txt aggregated.json aggregated-plus18.txt aggregated-plus18.json aggregation-report.json; then
             echo "No changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add LunaTV-config.txt LunaTV-config.json LunaTV-config-all.txt LunaTV-config-all.json tvbox-jsm.json validation-report.json
+          git add LunaTV-config.txt LunaTV-config.json LunaTV-config-all.txt LunaTV-config-all.json tvbox-jsm.json validation-report.json aggregated.txt aggregated.json aggregated-plus18.txt aggregated-plus18.json aggregation-report.json
           git commit -m "Update LunaTV configs"
           git push

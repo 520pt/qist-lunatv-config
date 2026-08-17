@@ -1,0 +1,90 @@
+{
+  "normal": {
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/hafrey1/LunaTV-config/main/LunaTV-config.txt",
+        "api_site": 72,
+        "added": 72,
+        "duplicates": 0
+      },
+      {
+        "url": "https://raw.githubusercontent.com/qianqikun/LunaTV-config/main/LunaTV-config.txt",
+        "api_site": 78,
+        "added": 19,
+        "duplicates": 59
+      },
+      {
+        "url": "https://raw.githubusercontent.com/netput-web/LunaTV-config/main/LunaTV-config.txt",
+        "api_site": 78,
+        "added": 8,
+        "duplicates": 70
+      },
+      {
+        "url": "https://raw.githubusercontent.com/smallmain/moontv-aggr-config/main/full.txt",
+        "api_site": 68,
+        "added": 33,
+        "duplicates": 35
+      }
+    ],
+    "skipped_duplicates": 164,
+    "failed": [],
+    "total_api_site": 132,
+    "total_lives": 0
+  },
+  "plus18": {
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/hafrey1/LunaTV-config/main/LunaTV-config.txt",
+        "api_site": 72,
+        "added": 72,
+        "duplicates": 0
+      },
+      {
+        "url": "https://raw.githubusercontent.com/qianqikun/LunaTV-config/main/LunaTV-config.txt",
+        "api_site": 78,
+        "added": 19,
+        "duplicates": 59
+      },
+      {
+        "url": "https://raw.githubusercontent.com/netput-web/LunaTV-config/main/LunaTV-config.txt",
+        "api_site": 78,
+        "added": 8,
+        "duplicates": 70
+      },
+      {
+        "url": "https://raw.githubusercontent.com/smallmain/moontv-aggr-config/main/full.txt",
+        "api_site": 68,
+        "added": 33,
+        "duplicates": 35
+      },
+      {
+        "url": "https://raw.githubusercontent.com/hafrey1/LunaTV-config/main/jin18.txt",
+        "api_site": 28,
+        "added": 0,
+        "duplicates": 28
+      },
+      {
+        "url": "https://raw.githubusercontent.com/qianqikun/LunaTV-config/main/jin18.txt",
+        "api_site": 44,
+        "added": 0,
+        "duplicates": 44
+      },
+      {
+        "url": "https://raw.githubusercontent.com/netput-web/LunaTV-config/main/jin18.txt",
+        "api_site": 29,
+        "added": 0,
+        "duplicates": 29
+      },
+      {
+        "url": "https://raw.githubusercontent.com/smallmain/moontv-aggr-config/main/full-plus18.txt",
+        "api_site": 101,
+        "added": 4,
+        "duplicates": 97
+      }
+    ],
+    "skipped_duplicates": 362,
+    "failed": [],
+    "total_api_site": 136,
+    "total_lives": 0
+  }
+}

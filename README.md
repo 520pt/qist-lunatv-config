@@ -5,6 +5,33 @@
 1. **直连可用配置**：只收录 LunaTV / MoonTVPlus 原生支持的标准苹果 CMS V10 源。
 2. **TVBox 桥接工具**：把 TVBox 源包装成 LunaTV / MoonTVPlus 认识的 `api.php/provide/vod` 接口。
 
+
+## 第三方维护源聚合配置
+
+不想用本仓库自己转换的 qist 源时，可以用下面两个聚合链接。它们只聚合公开维护的 LunaTV/MoonTVPlus 配置源：hafrey1、qianqikun、netput-web、smallmain。
+
+### 无 18+ 版
+
+```text
+https://raw.githubusercontent.com/520pt/qist-lunatv-config/main/aggregated.txt
+```
+
+当前聚合后约 132 个去重源。
+
+### 含 18+ 版
+
+```text
+https://raw.githubusercontent.com/520pt/qist-lunatv-config/main/aggregated-plus18.txt
+```
+
+当前聚合后约 136 个去重源。
+
+MoonTVPlus 里这样用：
+
+```yaml
+- CONFIG_SUBSCRIPTION_URL=https://raw.githubusercontent.com/520pt/qist-lunatv-config/main/aggregated.txt
+```
+
 ## 直连可用配置
 
 ```text
