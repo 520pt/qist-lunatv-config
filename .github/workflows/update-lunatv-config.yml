@@ -7,6 +7,8 @@ on:
   push:
     paths:
       - "scripts/update_lunatv_config.py"
+      - "scripts/generate_bridge_lunatv_config.py"
+      - "bridge/**"
       - ".github/workflows/update-lunatv-config.yml"
 
 permissions:
@@ -24,29 +26,32 @@ jobs:
 
       - name: Verify generated configs
         run: |
+          python3 -m py_compile scripts/update_lunatv_config.py scripts/generate_bridge_lunatv_config.py bridge/tvbox_luna_bridge.py
           python3 - <<'PY'
           import json
           from pathlib import Path
           compatible = json.loads(Path('LunaTV-config.json').read_text(encoding='utf-8'))
           all_sites = json.loads(Path('LunaTV-config-all.json').read_text(encoding='utf-8'))
           tvbox = json.loads(Path('tvbox-jsm.json').read_text(encoding='utf-8'))
+          report = json.loads(Path('validation-report.json').read_text(encoding='utf-8'))
           assert compatible['cache_time'] == 7200
+          assert len(compatible['api_site']) == report['supported_count']
           assert len(compatible['api_site']) > 0
           assert len(all_sites['api_site']) == len(tvbox['sites'])
           assert Path('LunaTV-config.txt').read_text(encoding='utf-8').strip()
           assert Path('LunaTV-config-all.txt').read_text(encoding='utf-8').strip()
-          print('compatible_sites=', len(compatible['api_site']))
+          print('supported_sites=', len(compatible['api_site']))
           print('all_sites=', len(all_sites['api_site']))
           PY
 
       - name: Commit changes
         run: |
-          if git diff --quiet -- LunaTV-config.txt LunaTV-config.json LunaTV-config-all.txt LunaTV-config-all.json tvbox-jsm.json; then
+          if git diff --quiet -- LunaTV-config.txt LunaTV-config.json LunaTV-config-all.txt LunaTV-config-all.json tvbox-jsm.json validation-report.json; then
             echo "No changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add LunaTV-config.txt LunaTV-config.json LunaTV-config-all.txt LunaTV-config-all.json tvbox-jsm.json
+          git add LunaTV-config.txt LunaTV-config.json LunaTV-config-all.txt LunaTV-config-all.json tvbox-jsm.json validation-report.json
           git commit -m "Update LunaTV configs"
           git push

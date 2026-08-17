@@ -5,3 +5,6 @@ __pycache__/
 # local scratch
 .tmp/
 tmp/
+
+LunaTV-config-bridge-local.*
+

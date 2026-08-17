@@ -1,41 +1,61 @@
 # qist → LunaTV / MoonTVPlus config
 
-自动把 qist 的 TVBox `jsm.json` 转成 LunaTV / MoonTVPlus 可导入的 Base58 配置，并通过 GitHub Actions 定时更新。
+这个仓库提供两种方式：
 
-## 链接
+1. **直连可用配置**：只收录 LunaTV / MoonTVPlus 原生支持的标准苹果 CMS V10 源。
+2. **TVBox 桥接工具**：把 TVBox 源包装成 LunaTV / MoonTVPlus 认识的 `api.php/provide/vod` 接口。
 
-### 1. 推荐可用版（CMS 直连源）
+## 直连可用配置
 
 ```text
 https://raw.githubusercontent.com/520pt/qist-lunatv-config/main/LunaTV-config.txt
 ```
 
-这个版本只包含 LunaTV / MoonTVPlus 原生支持的标准苹果 CMS V10 `api.php/provide/vod` 源，当前 13 个。
+这个链接会定时检测 qist 里能按 MoonTVPlus 搜索方式返回 `.m3u8` 的苹果 CMS 源，并自动更新。
 
-### 2. 全量保留版（包含 qist 全部 sites）
+## TVBox 桥接工具
 
-```text
-https://raw.githubusercontent.com/520pt/qist-lunatv-config/main/LunaTV-config-all.txt
+LunaTV / MoonTVPlus 不能直接运行 TVBox 的 `csp_*`、`drpy`、jar、js、py。要让这些源进入 LunaTV，必须先部署一个桥接服务：
+
+```powershell
+cd qist-lunatv-config\bridge
+docker compose up -d --build
 ```
 
-这个版本把 qist 的 163 个 `sites` 全部写进 `api_site` 结构，并附带 3 个直播源 `lives`。
+本地测试：
 
-注意：LunaTV / MoonTVPlus 的订阅配置原生只支持标准苹果 CMS V10 API。TVBox 里的 `csp_*`、`drpy`、本地 jar/js/py、Bili/网盘/体育/听书等条目没有 TVBox 运行环境，虽然全量版会保留名字和原始字段，但不保证都能在 LunaTV / MoonTVPlus 中搜索播放。
+```text
+http://127.0.0.1:8787/health
+http://127.0.0.1:8787/sites
+```
+
+用你的公网桥接地址生成 LunaTV 配置：
+
+```powershell
+python -X utf8 scripts\generate_bridge_lunatv_config.py --base-url https://你的桥接域名
+```
+
+生成：
+
+```text
+LunaTV-config-bridge.txt
+LunaTV-config-bridge.json
+```
+
+把 `LunaTV-config-bridge.txt` 上传到 GitHub raw，或放到任意静态文件地址，然后填进 LunaTV / MoonTVPlus。
+
+### 当前桥接支持状态
+
+- 已支持：TVBox 里的直连苹果 CMS / MacCMS `api.php/provide/vod` 源。
+- 明确不伪装：`csp_*`、`drpy`、jar/js/py 等源会返回 `unsupported TVBox engine`，等对应引擎适配后再变成可用。
+
+这样不会出现“配置里看起来有源，但实际不能用还不知道原因”的情况。
 
 ## 文件说明
 
-- `LunaTV-config.txt`：推荐可用版，Base58 编码，给 LunaTV / MoonTVPlus 使用。
-- `LunaTV-config.json`：推荐可用版明文检查文件。
-- `LunaTV-config-all.txt`：全量保留版，Base58 编码。
-- `LunaTV-config-all.json`：全量保留版明文检查文件。
-- `tvbox-jsm.json`：定时同步到的 qist 原始配置快照。
-- `scripts/update_lunatv_config.py`：转换脚本。
-
-## 更新机制
-
-GitHub Actions 每 6 小时自动执行一次，也可以手动触发：
-
-- 拉取 qist 上游：`https://v6.gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/master/jsm.json`
-- 失败时回退官方 raw：`https://raw.githubusercontent.com/qist/tvbox/master/jsm.json`
-- 重新生成两个 LunaTV 配置
-- 有变化就自动提交到 `main`
+- `LunaTV-config.txt`：直连实测可用版，Base58 编码。
+- `LunaTV-config.json`：直连实测可用版明文。
+- `validation-report.json`：直连源检测报告。
+- `bridge/tvbox_luna_bridge.py`：TVBox → LunaTV 桥接服务。
+- `scripts/generate_bridge_lunatv_config.py`：桥接版 LunaTV 配置生成器。
+- `tvbox-jsm.json`：qist 原始配置快照。

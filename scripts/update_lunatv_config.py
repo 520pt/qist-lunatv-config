@@ -12,6 +12,7 @@ import json
 import re
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import OrderedDict
 from pathlib import Path
 from typing import Any
@@ -96,7 +97,26 @@ def detail_url(api_url: str) -> str:
     return urllib.parse.urlunsplit((parts.scheme, parts.netloc, "", "", ""))
 
 
-def convert_compatible(tvbox: dict[str, Any], cache_time: int = 7200) -> dict[str, Any]:
+SEARCH_TEST_KEYWORDS = ["斗罗", "凡人", "庆余年", "仙逆"]
+
+
+def build_lives(tvbox: dict[str, Any]) -> OrderedDict[str, dict[str, Any]]:
+    lives: OrderedDict[str, dict[str, Any]] = OrderedDict()
+    used_live_keys: set[str] = set()
+    for index, live in enumerate(tvbox.get("lives", []), start=1):
+        if not isinstance(live, dict):
+            continue
+        live_key = safe_key(str(live.get("name") or f"live_{index}"), used_live_keys, f"live_{index}")
+        lives[live_key] = {
+            "name": str(live.get("name") or live_key),
+            "url": str(live.get("url") or ""),
+            "ua": live.get("ua"),
+            "epg": live.get("epg"),
+        }
+    return lives
+
+
+def candidate_compatible_sites(tvbox: dict[str, Any]) -> OrderedDict[str, dict[str, str]]:
     api_site: OrderedDict[str, dict[str, str]] = OrderedDict()
     used_keys: set[str] = set()
     used_apis: set[str] = set()
@@ -122,7 +142,84 @@ def convert_compatible(tvbox: dict[str, Any], cache_time: int = 7200) -> dict[st
             "detail": detail_url(normalized_api),
         }
 
-    return {"cache_time": cache_time, "api_site": api_site}
+    return api_site
+
+
+def validate_one_site(key: str, site: dict[str, str], timeout: int = 10) -> tuple[str, bool, dict[str, Any]]:
+    """Validate exactly like MoonTVPlus search: api + ?ac=videolist&wd=keyword.
+
+    MoonTVPlus filters search results without .m3u8 episodes, so a source is marked
+    supported only when at least one tested keyword returns JSON list items containing
+    playable .m3u8 URLs.
+    """
+    last_error = "no tested keyword returned playable m3u8 results"
+    for keyword in SEARCH_TEST_KEYWORDS:
+        url = site["api"] + "?ac=videolist&wd=" + urllib.parse.quote(keyword)
+        try:
+            req = urllib.request.Request(
+                url,
+                headers={
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                    "Accept": "application/json,text/plain,*/*",
+                },
+            )
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                body = resp.read(2 * 1024 * 1024).decode("utf-8-sig", "replace")
+            data = json.loads(body)
+            items = data.get("list") if isinstance(data, dict) else None
+            if not isinstance(items, list):
+                last_error = f"{keyword}: response has no list array"
+                continue
+            playable = sum(
+                1
+                for item in items
+                if isinstance(item, dict) and ".m3u8" in str(item.get("vod_play_url", ""))
+            )
+            if playable > 0:
+                return key, True, {
+                    "name": site["name"],
+                    "api": site["api"],
+                    "keyword": keyword,
+                    "results": len(items),
+                    "playable": playable,
+                }
+            last_error = f"{keyword}: list={len(items)}, playable_m3u8=0"
+        except Exception as exc:
+            last_error = f"{keyword}: {type(exc).__name__}: {str(exc)[:160]}"
+    return key, False, {"name": site["name"], "api": site["api"], "error": last_error}
+
+
+def validate_compatible_sites(api_site: OrderedDict[str, dict[str, str]]) -> tuple[OrderedDict[str, dict[str, str]], dict[str, Any]]:
+    supported: OrderedDict[str, dict[str, str]] = OrderedDict()
+    report: dict[str, Any] = {"tested_keywords": SEARCH_TEST_KEYWORDS, "supported": [], "unsupported": []}
+
+    with ThreadPoolExecutor(max_workers=6) as executor:
+        futures = [executor.submit(validate_one_site, key, site) for key, site in api_site.items()]
+        results = {future.result()[0]: future.result() for future in as_completed(futures)}
+
+    for key, site in api_site.items():
+        _, ok, info = results[key]
+        if ok:
+            supported[key] = site
+            report["supported"].append({"key": key, **info})
+        else:
+            report["unsupported"].append({"key": key, **info})
+
+    return supported, report
+
+
+def convert_compatible(tvbox: dict[str, Any], cache_time: int = 7200, validate: bool = True) -> tuple[dict[str, Any], dict[str, Any]]:
+    candidates = candidate_compatible_sites(tvbox)
+    if validate:
+        api_site, report = validate_compatible_sites(candidates)
+    else:
+        api_site = candidates
+        report = {"tested_keywords": [], "supported": [], "unsupported": [], "validation_skipped": True}
+    config: dict[str, Any] = {"cache_time": cache_time, "api_site": api_site, "lives": build_lives(tvbox)}
+    report["candidate_count"] = len(candidates)
+    report["supported_count"] = len(api_site)
+    report["live_count"] = len(config["lives"])
+    return config, report
 
 
 def first_http_value(value: Any) -> str | None:
@@ -184,23 +281,10 @@ def convert_all_preserved(tvbox: dict[str, Any], cache_time: int = 7200) -> dict
         }
         api_site[key] = entry
 
-    lives: OrderedDict[str, dict[str, Any]] = OrderedDict()
-    used_live_keys: set[str] = set()
-    for index, live in enumerate(tvbox.get("lives", []), start=1):
-        if not isinstance(live, dict):
-            continue
-        live_key = safe_key(str(live.get("name") or f"live_{index}"), used_live_keys, f"live_{index}")
-        lives[live_key] = {
-            "name": str(live.get("name") or live_key),
-            "url": str(live.get("url") or ""),
-            "ua": live.get("ua"),
-            "epg": live.get("epg"),
-        }
-
     return {
         "cache_time": cache_time,
         "api_site": api_site,
-        "lives": lives,
+        "lives": build_lives(tvbox),
         "_note": "全量保留版：包含 TVBox 的全部 sites；LunaTV/MoonTVPlus 原生只支持标准苹果 CMS V10 API，非 provide/vod 条目可能只能加载，不能搜索播放。",
     }
 
@@ -216,17 +300,20 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--upstream", action="append", help="TVBox jsm.json URL. Can be used multiple times.")
     parser.add_argument("--cache-time", type=int, default=7200)
+    parser.add_argument("--skip-validation", action="store_true", help="Do not probe candidate APIs before writing compatible config.")
     args = parser.parse_args()
 
     urls = args.upstream or DEFAULT_UPSTREAMS
     text, used_url = fetch_text(urls)
     tvbox = json.loads(text)
 
-    compatible = convert_compatible(tvbox, cache_time=args.cache_time)
+    compatible, validation_report = convert_compatible(
+        tvbox, cache_time=args.cache_time, validate=not args.skip_validation
+    )
     all_preserved = convert_all_preserved(tvbox, cache_time=args.cache_time)
 
     if not compatible["api_site"]:
-        raise RuntimeError("no compatible provide/vod sites found in upstream")
+        raise RuntimeError("no validated playable provide/vod sites found in upstream")
     if len(all_preserved["api_site"]) != len(tvbox.get("sites", [])):
         raise RuntimeError("all-sites output did not preserve every TVBox site")
 
@@ -234,9 +321,11 @@ def main() -> int:
     write_config(all_preserved, "LunaTV-config-all.json", "LunaTV-config-all.txt")
 
     Path("tvbox-jsm.json").write_text(json.dumps(tvbox, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
+    Path("validation-report.json").write_text(json.dumps(validation_report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
 
     print(f"upstream={used_url}")
-    print(f"compatible_sites={len(compatible['api_site'])}")
+    print(f"candidate_sites={validation_report.get('candidate_count')}")
+    print(f"validated_supported_sites={len(compatible['api_site'])}")
     print(f"all_sites={len(all_preserved['api_site'])}")
     print(f"lives={len(all_preserved.get('lives', {}))}")
     return 0

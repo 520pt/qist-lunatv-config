@@ -6,11 +6,6 @@
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
       "detail": "http://caiji.dyttzyapi.com"
     },
-    "tyyszy_com": {
-      "name": "🎬天涯",
-      "api": "http://tyyszy.com/api.php/provide/vod",
-      "detail": "http://tyyszy.com"
-    },
     "cj_lziapi_com": {
       "name": "🎬量子",
       "api": "https://cj.lziapi.com/api.php/provide/vod",
@@ -21,40 +16,10 @@
       "api": "http://ffzy.tv/api.php/provide/vod",
       "detail": "http://ffzy.tv"
     },
-    "suoniapi_com": {
-      "name": "🎬索尼",
-      "api": "https://suoniapi.com/api.php/provide/vod",
-      "detail": "https://suoniapi.com"
-    },
-    "wolongzyw_com": {
-      "name": "🎬卧龙资源",
-      "api": "https://wolongzyw.com/api.php/provide/vod",
-      "detail": "https://wolongzyw.com"
-    },
-    "api_ukuapi_com": {
-      "name": "🎬尤酷",
-      "api": "https://api.ukuapi.com/api.php/provide/vod",
-      "detail": "https://api.ukuapi.com"
-    },
     "jszyapi_com": {
       "name": "🎬极速",
       "api": "https://jszyapi.com/api.php/provide/vod",
       "detail": "https://jszyapi.com"
-    },
-    "154_219_117_232_9981": {
-      "name": "🎬建安",
-      "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
-      "detail": "http://154.219.117.232:9981"
-    },
-    "zy_jinchancaiji_com": {
-      "name": "🎬金蝉",
-      "api": "https://zy.jinchancaiji.com/api.php/provide/vod",
-      "detail": "https://zy.jinchancaiji.com"
-    },
-    "vs_okcdn100_top": {
-      "name": "🎬小绵阳",
-      "api": "https://vs.okcdn100.top/api.php/provide/vod",
-      "detail": "https://vs.okcdn100.top"
     },
     "api_apibdzy_com": {
       "name": "🎬百度",
@@ -65,6 +30,26 @@
       "name": "🎬暴風",
       "api": "https://bfzyapi.com/api.php/provide/vod",
       "detail": "https://bfzyapi.com"
+    }
+  },
+  "lives": {
+    "migu": {
+      "name": "migu",
+      "url": "https://develop202.github.io/migu_video/interface.txt",
+      "ua": "okhttp/3.8.1",
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}"
+    },
+    "live": {
+      "name": "live",
+      "url": "https://epg.pw/test_channels.m3u",
+      "ua": "okhttp/3.8.1",
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}"
+    },
+    "ipv6": {
+      "name": "ipv6",
+      "url": "./tvboxtv.txt",
+      "ua": "okhttp/3.8.1",
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}"
     }
   }
 }
