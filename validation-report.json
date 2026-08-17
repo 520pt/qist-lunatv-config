@@ -31,14 +31,6 @@
       "playable": 17
     },
     {
-      "key": "api_ukuapi_com",
-      "name": "🎬尤酷",
-      "api": "https://api.ukuapi.com/api.php/provide/vod",
-      "keyword": "斗罗",
-      "results": 10,
-      "playable": 10
-    },
-    {
       "key": "jszyapi_com",
       "name": "🎬极速",
       "api": "https://jszyapi.com/api.php/provide/vod",
@@ -74,13 +66,19 @@
       "key": "suoniapi_com",
       "name": "🎬索尼",
       "api": "https://suoniapi.com/api.php/provide/vod",
-      "error": "仙逆: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      "error": "仙逆: HTTPError: HTTP Error 403: Forbidden"
     },
     {
       "key": "wolongzyw_com",
       "name": "🎬卧龙资源",
       "api": "https://wolongzyw.com/api.php/provide/vod",
       "error": "仙逆: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "key": "api_ukuapi_com",
+      "name": "🎬尤酷",
+      "api": "https://api.ukuapi.com/api.php/provide/vod",
+      "error": "仙逆: URLError: <urlopen error _ssl.c:990: The handshake operation timed out>"
     },
     {
       "key": "154_219_117_232_9981",
@@ -92,16 +90,16 @@
       "key": "zy_jinchancaiji_com",
       "name": "🎬金蝉",
       "api": "https://zy.jinchancaiji.com/api.php/provide/vod",
-      "error": "仙逆: URLError: <urlopen error [Errno -2] Name or service not known>"
+      "error": "仙逆: URLError: <urlopen error _ssl.c:990: The handshake operation timed out>"
     },
     {
       "key": "vs_okcdn100_top",
       "name": "🎬小绵阳",
       "api": "https://vs.okcdn100.top/api.php/provide/vod",
-      "error": "仙逆: URLError: <urlopen error [Errno -2] Name or service not known>"
+      "error": "仙逆: URLError: <urlopen error _ssl.c:990: The handshake operation timed out>"
     }
   ],
   "candidate_count": 13,
-  "supported_count": 7,
+  "supported_count": 6,
   "live_count": 3
 }

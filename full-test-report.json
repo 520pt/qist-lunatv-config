@@ -1,0 +1,2836 @@
+{
+  "total_sites": 163,
+  "health": {
+    "ok": true,
+    "sites": 163,
+    "supported": 15
+  },
+  "by_engine": {
+    "local_js": 25,
+    "csp": 118,
+    "local_py": 3,
+    "remote_js": 2,
+    "maccms": 15
+  },
+  "by_final": {
+    "needs_engine_adapter": 148,
+    "usable": 6,
+    "upstream_error": 8,
+    "json_no_playable": 1
+  },
+  "rows": [
+    {
+      "index": 1,
+      "key": "drpy_js",
+      "name": "搜索 • 豆瓣[js]",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 2,
+      "key": "site_2",
+      "name": "配置 • 中心",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Config"
+      }
+    },
+    {
+      "index": 3,
+      "key": "site_3",
+      "name": "本地 • 视频",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_LocalFile"
+      }
+    },
+    {
+      "index": 4,
+      "key": "site_4",
+      "name": "新片 • 预告",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_YGP"
+      }
+    },
+    {
+      "index": 5,
+      "key": "site_5",
+      "name": "新闪雷 • MP4",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 6,
+      "key": "fyyy",
+      "name": "飞宇影院",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_XBPQ"
+      }
+    },
+    {
+      "index": 7,
+      "key": "cupfox_in",
+      "name": "茶杯狐 • cupfox.in",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 8,
+      "key": "italkbbtv",
+      "name": "ITalkBB • 外",
+      "engine": "local_py",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./py/ITalkBBTV.py"
+      }
+    },
+    {
+      "index": 9,
+      "key": "TVB",
+      "name": "TVB云播",
+      "engine": "local_py",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./py/TVB云播.py"
+      }
+    },
+    {
+      "index": 10,
+      "key": "qiletv",
+      "name": "奇乐影视",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_XBPQ"
+      }
+    },
+    {
+      "index": 11,
+      "key": "site_11",
+      "name": "热播 • APP",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_AppRJ"
+      }
+    },
+    {
+      "index": 12,
+      "key": "site_12",
+      "name": "一起 • APP",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_AppYQK"
+      }
+    },
+    {
+      "index": 13,
+      "key": "site_13",
+      "name": "马猴 • APP",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_App3Q"
+      }
+    },
+    {
+      "index": 14,
+      "key": "site_14",
+      "name": "韩圈 • APP",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Hxq"
+      }
+    },
+    {
+      "index": 15,
+      "key": "99",
+      "name": "剧圈 • APP",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_App99"
+      }
+    },
+    {
+      "index": 16,
+      "key": "99_2",
+      "name": "半日 • APP",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_App99"
+      }
+    },
+    {
+      "index": 17,
+      "key": "site_17",
+      "name": "天堂 • APP",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_AppDrama"
+      }
+    },
+    {
+      "index": 18,
+      "key": "site_18",
+      "name": "橘汁 • APP",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_AppDrama"
+      }
+    },
+    {
+      "index": 19,
+      "key": "site_19",
+      "name": "华谊 • APP",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_AppDrama"
+      }
+    },
+    {
+      "index": 20,
+      "key": "site_20",
+      "name": "苹果 • APP",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_AppDrama"
+      }
+    },
+    {
+      "index": 21,
+      "key": "site_21",
+      "name": "蓝鹰 • APP",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_AppQi"
+      }
+    },
+    {
+      "index": 22,
+      "key": "site_22",
+      "name": "怀桑 • APP",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_AppQi"
+      }
+    },
+    {
+      "index": 23,
+      "key": "site_23",
+      "name": "世界 • APP",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_AppGet"
+      }
+    },
+    {
+      "index": 24,
+      "key": "site_24",
+      "name": "不戳 • APP",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_AppGet"
+      }
+    },
+    {
+      "index": 25,
+      "key": "site_25",
+      "name": "魔方 • APP",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_AppGet"
+      }
+    },
+    {
+      "index": 26,
+      "key": "site_26",
+      "name": "王子 • APP",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_AppGet"
+      }
+    },
+    {
+      "index": 27,
+      "key": "site_27",
+      "name": "茉莉 • APP",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_AppGet"
+      }
+    },
+    {
+      "index": 28,
+      "key": "site_28",
+      "name": "哔哩 • 合集",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Bili"
+      }
+    },
+    {
+      "index": 29,
+      "key": "site_29",
+      "name": "哔哩 • 视频",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_BiliYS"
+      }
+    },
+    {
+      "index": 30,
+      "key": "site_30",
+      "name": "玩偶 • 4K",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Wogg"
+      }
+    },
+    {
+      "index": 31,
+      "key": "site_31",
+      "name": "快映 • 4K",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_PanWebShare"
+      }
+    },
+    {
+      "index": 32,
+      "key": "site_32",
+      "name": "木偶 • 4K",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_PanWebShare"
+      }
+    },
+    {
+      "index": 33,
+      "key": "site_33",
+      "name": "蜡笔 • 4K",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_PanWebShare"
+      }
+    },
+    {
+      "index": 34,
+      "key": "site_34",
+      "name": "闪电 • 4K",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_PanWebShare"
+      }
+    },
+    {
+      "index": 35,
+      "key": "site_35",
+      "name": "至臻 • 4K",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_PanWebShare"
+      }
+    },
+    {
+      "index": 36,
+      "key": "site_36",
+      "name": "多多 • 4K",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_PanWebShare"
+      }
+    },
+    {
+      "index": 37,
+      "key": "site_37",
+      "name": "欧哥 • 4K",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_PanWebShare"
+      }
+    },
+    {
+      "index": 38,
+      "key": "site_38",
+      "name": "二小 • 4K",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_PanWebShare"
+      }
+    },
+    {
+      "index": 39,
+      "key": "site_39",
+      "name": "虎斑 • 4K",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_PanWebShare"
+      }
+    },
+    {
+      "index": 40,
+      "key": "site_40",
+      "name": "种子 • 4K",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_SeedHub"
+      }
+    },
+    {
+      "index": 41,
+      "key": "site_41",
+      "name": "夸父 • 4K",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_PanWebShareKF"
+      }
+    },
+    {
+      "index": 42,
+      "key": "123",
+      "name": "123 • 4K",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_PanWebShare123"
+      }
+    },
+    {
+      "index": 43,
+      "key": "site_43",
+      "name": "指南 • 4K",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_4KZhinan"
+      }
+    },
+    {
+      "index": 44,
+      "key": "site_44",
+      "name": "移动 • 4K",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Yidong4K"
+      }
+    },
+    {
+      "index": 45,
+      "key": "site_45",
+      "name": "人人 • 4K",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_RenRen"
+      }
+    },
+    {
+      "index": 46,
+      "key": "site_46",
+      "name": "即刻 • 4K",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Jike"
+      }
+    },
+    {
+      "index": 47,
+      "key": "site_47",
+      "name": "双星 • 4K",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_ShuangXing"
+      }
+    },
+    {
+      "index": 48,
+      "key": "site_48",
+      "name": "七猫 • 短剧",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_ShortQimao"
+      }
+    },
+    {
+      "index": 49,
+      "key": "site_49",
+      "name": "河马 • 短剧",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_ShortHema"
+      }
+    },
+    {
+      "index": 50,
+      "key": "site_50",
+      "name": "围观 • 短剧",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_ShortWeiguan"
+      }
+    },
+    {
+      "index": 51,
+      "key": "site_51",
+      "name": "好看 • 短剧",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_ShortHaokan"
+      }
+    },
+    {
+      "index": 52,
+      "key": "site_52",
+      "name": "星芽 • 短剧",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_ShortXingya"
+      }
+    },
+    {
+      "index": 53,
+      "key": "site_53",
+      "name": "果果 • 短剧",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_XBPQ"
+      }
+    },
+    {
+      "index": 54,
+      "key": "site_54",
+      "name": "瓜子 • 影视",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Gz360"
+      }
+    },
+    {
+      "index": 55,
+      "key": "site_55",
+      "name": "山楂 • 影视",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_PianKu8"
+      }
+    },
+    {
+      "index": 56,
+      "key": "site_56",
+      "name": "飞娱 • 影视",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Feiyu"
+      }
+    },
+    {
+      "index": 57,
+      "key": "site_57",
+      "name": "独播 • 影视",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Duboku"
+      }
+    },
+    {
+      "index": 58,
+      "key": "site_58",
+      "name": "厂长 • 影视",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Czsapp"
+      }
+    },
+    {
+      "index": 59,
+      "key": "site_59",
+      "name": "金牌 • 影视",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Jpys"
+      }
+    },
+    {
+      "index": 60,
+      "key": "site_60",
+      "name": "修罗 • 影视",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Xlys"
+      }
+    },
+    {
+      "index": 61,
+      "key": "site_61",
+      "name": "骚火 • 影视",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_SaoHuo"
+      }
+    },
+    {
+      "index": 62,
+      "key": "site_62",
+      "name": "农民 • 影视",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Wwys"
+      }
+    },
+    {
+      "index": 63,
+      "key": "site_63",
+      "name": "枫叶 • 影视",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_FengYe"
+      }
+    },
+    {
+      "index": 64,
+      "key": "site_64",
+      "name": "爱看 • 影视",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Ikanbot"
+      }
+    },
+    {
+      "index": 65,
+      "key": "site_65",
+      "name": "小镇 • 影视",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_XBPQ"
+      }
+    },
+    {
+      "index": 66,
+      "key": "site_66",
+      "name": "面包 • 影视",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_XBPQ"
+      }
+    },
+    {
+      "index": 67,
+      "key": "site_67",
+      "name": "永乐 • 影视",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_XBPQ"
+      }
+    },
+    {
+      "index": 68,
+      "key": "site_68",
+      "name": "剧圈 • 影视",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_XYQHiker"
+      }
+    },
+    {
+      "index": 69,
+      "key": "1905",
+      "name": "1905 • 影视",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Web1905"
+      }
+    },
+    {
+      "index": 70,
+      "key": "site_70",
+      "name": "番社 • 动漫",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_XBPQ"
+      }
+    },
+    {
+      "index": 71,
+      "key": "99_3",
+      "name": "双星 • 动漫",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_App99"
+      }
+    },
+    {
+      "index": 72,
+      "key": "site_72",
+      "name": "喵呜 • 动漫",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_MiaoWu"
+      }
+    },
+    {
+      "index": 73,
+      "key": "site_73",
+      "name": "魔都 • 动漫",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_MoDu"
+      }
+    },
+    {
+      "index": 74,
+      "key": "site_74",
+      "name": "漫国 • 动漫",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_AppSy"
+      }
+    },
+    {
+      "index": 75,
+      "key": "site_75",
+      "name": "方舟 • 动漫",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_AppGet"
+      }
+    },
+    {
+      "index": 76,
+      "key": "site_76",
+      "name": "曼波 • 动漫",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_AppGet"
+      }
+    },
+    {
+      "index": 77,
+      "key": "site_77",
+      "name": "咕咕 • 动漫",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_AppGet"
+      }
+    },
+    {
+      "index": 78,
+      "key": "site_78",
+      "name": "巴士 • 动漫",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_XBPQ"
+      }
+    },
+    {
+      "index": 79,
+      "key": "site_79",
+      "name": "路漫漫 • 动漫",
+      "engine": "remote_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js"
+      }
+    },
+    {
+      "index": 80,
+      "key": "site_80",
+      "name": "去看吧 • 动漫",
+      "engine": "remote_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js"
+      }
+    },
+    {
+      "index": 81,
+      "key": "site_81",
+      "name": "荐片 • 磁力",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_JianPian"
+      }
+    },
+    {
+      "index": 82,
+      "key": "site_82",
+      "name": "七味 • 磁力",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_QnMp4"
+      }
+    },
+    {
+      "index": 83,
+      "key": "New6v",
+      "name": "New6V • 磁力",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_New6v"
+      }
+    },
+    {
+      "index": 84,
+      "key": "site_84",
+      "name": "美剧迷 • 磁力",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_MeijuMi"
+      }
+    },
+    {
+      "index": 85,
+      "key": "site_85",
+      "name": "迅雷吧 • 磁力",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Xunlei8"
+      }
+    },
+    {
+      "index": 86,
+      "key": "site_86",
+      "name": "电影港 • 磁力",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_XYQHiker"
+      }
+    },
+    {
+      "index": 87,
+      "key": "site_87",
+      "name": "阿里 • 云盘",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_PanAli"
+      }
+    },
+    {
+      "index": 88,
+      "key": "site_88",
+      "name": "夸克 • 网盘",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_PanQuark"
+      }
+    },
+    {
+      "index": 89,
+      "key": "UC",
+      "name": "UC • 网盘",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_PanUC"
+      }
+    },
+    {
+      "index": 90,
+      "key": "site_90",
+      "name": "百度 • 网盘",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_PanBaidu"
+      }
+    },
+    {
+      "index": 91,
+      "key": "site_91",
+      "name": "聚合 • 搜索",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_JuheSo"
+      }
+    },
+    {
+      "index": 92,
+      "key": "site_92",
+      "name": "盘搜 • 搜索",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_PanSou"
+      }
+    },
+    {
+      "index": 93,
+      "key": "site_93",
+      "name": "米搜 • 搜索",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_MiSou"
+      }
+    },
+    {
+      "index": 94,
+      "key": "site_94",
+      "name": "百酷 • 搜索",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Baiku"
+      }
+    },
+    {
+      "index": 95,
+      "key": "site_95",
+      "name": "酷乐 • 搜索",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_KuLe"
+      }
+    },
+    {
+      "index": 96,
+      "key": "site_96",
+      "name": "鬼鬼 • 搜索",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_GuiGui"
+      }
+    },
+    {
+      "index": 97,
+      "key": "site_97",
+      "name": "趣盘 • 搜索",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_QuPanSo"
+      }
+    },
+    {
+      "index": 98,
+      "key": "88",
+      "name": "88 • 看球",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Sports88"
+      }
+    },
+    {
+      "index": 99,
+      "key": "site_99",
+      "name": "球通 • 体育",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_SportsQiutong"
+      }
+    },
+    {
+      "index": 100,
+      "key": "site_100",
+      "name": "瓜子 • 体育",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_SportsGuazi"
+      }
+    },
+    {
+      "index": 101,
+      "key": "site_101",
+      "name": "咖啡 • 体育",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_SportsKafei"
+      }
+    },
+    {
+      "index": 102,
+      "key": "DJ",
+      "name": "呦呦 • DJ",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Djuu"
+      }
+    },
+    {
+      "index": 103,
+      "key": "DJ_2",
+      "name": "轮回 • DJ",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Djlh"
+      }
+    },
+    {
+      "index": 104,
+      "key": "FM",
+      "name": "蜻蜓 • FM",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_QingtingFM"
+      }
+    },
+    {
+      "index": 105,
+      "key": "site_105",
+      "name": "世界 • 听书",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_TingShijie"
+      }
+    },
+    {
+      "index": 106,
+      "key": "site_106",
+      "name": "堇夏 • 听书",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_TingJinxia"
+      }
+    },
+    {
+      "index": 107,
+      "key": "site_107",
+      "name": "博看 • 听书",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_TingBokan"
+      }
+    },
+    {
+      "index": 108,
+      "key": "site_108",
+      "name": "戏曲 • 多多",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_AppLY"
+      }
+    },
+    {
+      "index": 109,
+      "key": "site_109",
+      "name": "童趣 • 儿童",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_TongQu"
+      }
+    },
+    {
+      "index": 110,
+      "key": "site_110",
+      "name": "兔小贝 • 儿童",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_TuXiaoBei"
+      }
+    },
+    {
+      "index": 111,
+      "key": "site_111",
+      "name": "贝乐虎 • 儿童",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_BeiLeHu"
+      }
+    },
+    {
+      "index": 112,
+      "key": "site_112",
+      "name": "爱听 • 音乐",
+      "engine": "local_py",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./py/爱听音乐.py"
+      }
+    },
+    {
+      "index": 113,
+      "key": "site_113",
+      "name": "网络 • 直播",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_ALLLive"
+      }
+    },
+    {
+      "index": 114,
+      "key": "site_114",
+      "name": "哔哩 • 音乐",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Bili"
+      }
+    },
+    {
+      "index": 115,
+      "key": "site_115",
+      "name": "哔哩 • 听书",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Bili"
+      }
+    },
+    {
+      "index": 116,
+      "key": "site_116",
+      "name": "哔哩 • 相声",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Bili"
+      }
+    },
+    {
+      "index": 117,
+      "key": "site_117",
+      "name": "哔哩 • 小品",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Bili"
+      }
+    },
+    {
+      "index": 118,
+      "key": "site_118",
+      "name": "哔哩 • 戏曲",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Bili"
+      }
+    },
+    {
+      "index": 119,
+      "key": "site_119",
+      "name": "少儿 • 教育",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Bili"
+      }
+    },
+    {
+      "index": 120,
+      "key": "site_120",
+      "name": "小学 • 课堂",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Bili"
+      }
+    },
+    {
+      "index": 121,
+      "key": "site_121",
+      "name": "初中 • 课堂",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Bili"
+      }
+    },
+    {
+      "index": 122,
+      "key": "site_122",
+      "name": "高中 • 课堂",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Bili"
+      }
+    },
+    {
+      "index": 123,
+      "key": "site_123",
+      "name": "急救 • 教学",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_FirstAid"
+      }
+    },
+    {
+      "index": 124,
+      "key": "site_124",
+      "name": "养生 • 知识",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_YST"
+      }
+    },
+    {
+      "index": 125,
+      "key": "site_125",
+      "name": "影视 • 电影天堂",
+      "engine": "maccms",
+      "final": "usable",
+      "direct": {
+        "status": "playable",
+        "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
+        "keyword": "斗罗",
+        "results": 13,
+        "playable": 13
+      },
+      "bridge": {
+        "http": 200,
+        "code": 1,
+        "results": 13,
+        "playable": 13,
+        "msg": "数据列表"
+      }
+    },
+    {
+      "index": 126,
+      "key": "site_126",
+      "name": "影视 • 天涯",
+      "engine": "maccms",
+      "final": "upstream_error",
+      "direct": {
+        "status": "upstream_error",
+        "api": "http://tyyszy.com/api.php/provide/vod",
+        "error": "仙逆: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      },
+      "bridge": {
+        "http": 502,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "upstream error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    {
+      "index": 127,
+      "key": "site_127",
+      "name": "影视 • 量子[直连]",
+      "engine": "maccms",
+      "final": "usable",
+      "direct": {
+        "status": "playable",
+        "api": "https://cj.lziapi.com/api.php/provide/vod",
+        "keyword": "斗罗",
+        "results": 20,
+        "playable": 20
+      },
+      "bridge": {
+        "http": 200,
+        "code": 1,
+        "results": 20,
+        "playable": 20,
+        "msg": "数据列表"
+      }
+    },
+    {
+      "index": 128,
+      "key": "site_128",
+      "name": "影视 • 非凡[直连]",
+      "engine": "maccms",
+      "final": "usable",
+      "direct": {
+        "status": "playable",
+        "api": "http://ffzy.tv/api.php/provide/vod",
+        "keyword": "斗罗",
+        "results": 17,
+        "playable": 17
+      },
+      "bridge": {
+        "http": 200,
+        "code": 1,
+        "results": 17,
+        "playable": 17,
+        "msg": "数据列表"
+      }
+    },
+    {
+      "index": 129,
+      "key": "site_129",
+      "name": "影视 • 索尼[直连]",
+      "engine": "maccms",
+      "final": "upstream_error",
+      "direct": {
+        "status": "upstream_error",
+        "api": "https://suoniapi.com/api.php/provide/vod",
+        "error": "仙逆: HTTPError: HTTP Error 403: Forbidden"
+      },
+      "bridge": {
+        "http": 502,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "upstream error: HTTPError: HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "index": 130,
+      "key": "site_130",
+      "name": "影视 • 卧龙资源[直连]",
+      "engine": "maccms",
+      "final": "upstream_error",
+      "direct": {
+        "status": "upstream_error",
+        "api": "https://wolongzyw.com/api.php/provide/vod",
+        "error": "仙逆: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      },
+      "bridge": {
+        "http": 502,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "upstream error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    {
+      "index": 131,
+      "key": "U",
+      "name": "影视 • 尤酷[直连]",
+      "engine": "maccms",
+      "final": "upstream_error",
+      "direct": {
+        "status": "upstream_error",
+        "api": "https://api.ukuapi.com/api.php/provide/vod",
+        "error": "仙逆: URLError: <urlopen error _ssl.c:990: The handshake operation timed out>"
+      },
+      "bridge": {
+        "http": 502,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "upstream error: URLError: <urlopen error _ssl.c:990: The handshake operation timed out>"
+      }
+    },
+    {
+      "index": 132,
+      "key": "site_132",
+      "name": "影视 • 极速[直连]",
+      "engine": "maccms",
+      "final": "usable",
+      "direct": {
+        "status": "playable",
+        "api": "https://jszyapi.com/api.php/provide/vod",
+        "keyword": "斗罗",
+        "results": 20,
+        "playable": 20
+      },
+      "bridge": {
+        "http": 200,
+        "code": 1,
+        "results": 20,
+        "playable": 20,
+        "msg": "数据列表"
+      }
+    },
+    {
+      "index": 133,
+      "key": "site_133",
+      "name": "影视 • 建安",
+      "engine": "maccms",
+      "final": "json_no_playable",
+      "direct": {
+        "status": "json_no_playable",
+        "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
+        "error": "仙逆: list=20, playable_m3u8=0"
+      },
+      "bridge": {
+        "http": 200,
+        "code": 1,
+        "results": 20,
+        "playable": 0,
+        "msg": "数据列表"
+      }
+    },
+    {
+      "index": 134,
+      "key": "site_134",
+      "name": "影视 • 金蝉",
+      "engine": "maccms",
+      "final": "upstream_error",
+      "direct": {
+        "status": "upstream_error",
+        "api": "https://zy.jinchancaiji.com/api.php/provide/vod",
+        "error": "仙逆: URLError: <urlopen error _ssl.c:990: The handshake operation timed out>"
+      },
+      "bridge": {
+        "http": 502,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "upstream error: URLError: <urlopen error [Errno 2] No such file or directory>"
+      }
+    },
+    {
+      "index": 135,
+      "key": "site_135",
+      "name": "影视 • 小绵阳",
+      "engine": "maccms",
+      "final": "upstream_error",
+      "direct": {
+        "status": "upstream_error",
+        "api": "https://vs.okcdn100.top/api.php/provide/vod",
+        "error": "仙逆: URLError: <urlopen error _ssl.c:990: The handshake operation timed out>"
+      },
+      "bridge": {
+        "http": 502,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "upstream error: URLError: <urlopen error _ssl.c:990: The handshake operation timed out>"
+      }
+    },
+    {
+      "index": 136,
+      "key": "789",
+      "name": "789采集",
+      "engine": "maccms",
+      "final": "upstream_error",
+      "direct": {
+        "status": "upstream_error",
+        "api": "https://zy.jinchancaiji.com/api.php/provide/vod",
+        "error": "仙逆: URLError: <urlopen error _ssl.c:990: The handshake operation timed out>"
+      },
+      "bridge": {
+        "http": 502,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "upstream error: URLError: <urlopen error _ssl.c:990: The handshake operation timed out>"
+      }
+    },
+    {
+      "index": 137,
+      "key": "site_137",
+      "name": "影视 • 率率[直连]",
+      "engine": "maccms",
+      "final": "upstream_error",
+      "direct": {
+        "status": "upstream_error",
+        "api": "https://suoniapi.com/api.php/provide/vod",
+        "error": "仙逆: HTTPError: HTTP Error 403: Forbidden"
+      },
+      "bridge": {
+        "http": 502,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "upstream error: HTTPError: HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "index": 138,
+      "key": "site_138",
+      "name": "百度",
+      "engine": "maccms",
+      "final": "usable",
+      "direct": {
+        "status": "playable",
+        "api": "https://api.apibdzy.com/api.php/provide/vod",
+        "keyword": "斗罗",
+        "results": 13,
+        "playable": 13
+      },
+      "bridge": {
+        "http": 200,
+        "code": 1,
+        "results": 13,
+        "playable": 13,
+        "msg": "数据列表"
+      }
+    },
+    {
+      "index": 139,
+      "key": "site_139",
+      "name": "影视 • 暴風[直连]",
+      "engine": "maccms",
+      "final": "usable",
+      "direct": {
+        "status": "playable",
+        "api": "https://bfzyapi.com/api.php/provide/vod",
+        "keyword": "斗罗",
+        "results": 20,
+        "playable": 20
+      },
+      "bridge": {
+        "http": 200,
+        "code": 1,
+        "results": 20,
+        "playable": 20,
+        "msg": "数据列表"
+      }
+    },
+    {
+      "index": 140,
+      "key": "drpy_js_360",
+      "name": "官源 • 360[js]",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 141,
+      "key": "drpy_js_2",
+      "name": "官源 • 芒果[js]",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 142,
+      "key": "drpy_js_3",
+      "name": "官源 • 腾讯[js]",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 143,
+      "key": "drpy_js_4",
+      "name": "官源 • 爱奇艺[js]",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 144,
+      "key": "drpy_js_5",
+      "name": "官源 • 搜狗[js]",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 145,
+      "key": "drpy_js_6",
+      "name": "官源 • 优酷[js]",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 146,
+      "key": "drpy_js_Anime1",
+      "name": "动漫 • Anime1动畫[js]",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 147,
+      "key": "drpy_js_NT",
+      "name": "动漫 • NT动漫[js]",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 148,
+      "key": "drpy_js_7",
+      "name": "动漫 • 路漫漫[js]",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 149,
+      "key": "drpy_js_8",
+      "name": "动漫 • 去看吧[js]",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 150,
+      "key": "drpy_js_A8",
+      "name": "音频 • A8音乐[js]",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 151,
+      "key": "drpy_js_DJ",
+      "name": "音频 • DJ音乐[js]",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 152,
+      "key": "drpy_js__FM",
+      "name": "广播 • 蜻蜓FM[js]",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 153,
+      "key": "drpy_js_9",
+      "name": "听书 • 爱上你听书[js]",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 154,
+      "key": "drpy_js_10",
+      "name": "听书 • 博看听书[js]",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 155,
+      "key": "drpy_js_11",
+      "name": "听书 • 海洋听书[js]",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 156,
+      "key": "drpy_js_12",
+      "name": "听书 • 有声小说[js]",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 157,
+      "key": "drpy_js_13",
+      "name": "聚合 • 播客[js]",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 158,
+      "key": "drpy_js__6",
+      "name": "聚合 • 酷6网[js]",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 159,
+      "key": "drpy_js_14",
+      "name": "聚合 • 网易公版[js]",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    },
+    {
+      "index": 160,
+      "key": "push_agent",
+      "name": "手机｜推送",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Push"
+      }
+    },
+    {
+      "index": 161,
+      "key": "site_161",
+      "name": "應用商店",
+      "engine": "csp",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: csp_Market"
+      }
+    },
+    {
+      "index": 162,
+      "key": "bb",
+      "name": "配置接口完全免费",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 0,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "TimeoutError: timed out"
+      }
+    },
+    {
+      "index": 163,
+      "key": "cc",
+      "name": "请勿相信视频中任何广告",
+      "engine": "local_js",
+      "final": "needs_engine_adapter",
+      "direct": {
+        "status": "not_applicable"
+      },
+      "bridge": {
+        "http": 501,
+        "code": 0,
+        "results": 0,
+        "playable": 0,
+        "msg": "unsupported TVBox engine: ./lib/drpy2.min.js"
+      }
+    }
+  ]
+}

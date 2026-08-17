@@ -1,0 +1,179 @@
+# Full TVBox → LunaTV test report
+
+Total sites: 163
+
+## Summary
+
+- json_no_playable: 1
+- needs_engine_adapter: 148
+- upstream_error: 8
+- usable: 6
+
+## Usable sources
+
+- site_125 / 影视 • 电影天堂：keyword=斗罗 results=13 playable=13
+- site_127 / 影视 • 量子[直连]：keyword=斗罗 results=20 playable=20
+- site_128 / 影视 • 非凡[直连]：keyword=斗罗 results=17 playable=17
+- site_132 / 影视 • 极速[直连]：keyword=斗罗 results=20 playable=20
+- site_138 / 百度：keyword=斗罗 results=13 playable=13
+- site_139 / 影视 • 暴風[直连]：keyword=斗罗 results=20 playable=20
+
+## Not usable yet
+
+- drpy_js / 搜索 • 豆瓣[js]：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- site_2 / 配置 • 中心：needs_engine_adapter / unsupported TVBox engine: csp_Config
+- site_3 / 本地 • 视频：needs_engine_adapter / unsupported TVBox engine: csp_LocalFile
+- site_4 / 新片 • 预告：needs_engine_adapter / unsupported TVBox engine: csp_YGP
+- site_5 / 新闪雷 • MP4：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- fyyy / 飞宇影院：needs_engine_adapter / unsupported TVBox engine: csp_XBPQ
+- cupfox_in / 茶杯狐 • cupfox.in：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- italkbbtv / ITalkBB • 外：needs_engine_adapter / unsupported TVBox engine: ./py/ITalkBBTV.py
+- TVB / TVB云播：needs_engine_adapter / unsupported TVBox engine: ./py/TVB云播.py
+- qiletv / 奇乐影视：needs_engine_adapter / unsupported TVBox engine: csp_XBPQ
+- site_11 / 热播 • APP：needs_engine_adapter / unsupported TVBox engine: csp_AppRJ
+- site_12 / 一起 • APP：needs_engine_adapter / unsupported TVBox engine: csp_AppYQK
+- site_13 / 马猴 • APP：needs_engine_adapter / unsupported TVBox engine: csp_App3Q
+- site_14 / 韩圈 • APP：needs_engine_adapter / unsupported TVBox engine: csp_Hxq
+- 99 / 剧圈 • APP：needs_engine_adapter / unsupported TVBox engine: csp_App99
+- 99_2 / 半日 • APP：needs_engine_adapter / unsupported TVBox engine: csp_App99
+- site_17 / 天堂 • APP：needs_engine_adapter / unsupported TVBox engine: csp_AppDrama
+- site_18 / 橘汁 • APP：needs_engine_adapter / unsupported TVBox engine: csp_AppDrama
+- site_19 / 华谊 • APP：needs_engine_adapter / unsupported TVBox engine: csp_AppDrama
+- site_20 / 苹果 • APP：needs_engine_adapter / unsupported TVBox engine: csp_AppDrama
+- site_21 / 蓝鹰 • APP：needs_engine_adapter / unsupported TVBox engine: csp_AppQi
+- site_22 / 怀桑 • APP：needs_engine_adapter / unsupported TVBox engine: csp_AppQi
+- site_23 / 世界 • APP：needs_engine_adapter / unsupported TVBox engine: csp_AppGet
+- site_24 / 不戳 • APP：needs_engine_adapter / unsupported TVBox engine: csp_AppGet
+- site_25 / 魔方 • APP：needs_engine_adapter / unsupported TVBox engine: csp_AppGet
+- site_26 / 王子 • APP：needs_engine_adapter / unsupported TVBox engine: csp_AppGet
+- site_27 / 茉莉 • APP：needs_engine_adapter / unsupported TVBox engine: csp_AppGet
+- site_28 / 哔哩 • 合集：needs_engine_adapter / unsupported TVBox engine: csp_Bili
+- site_29 / 哔哩 • 视频：needs_engine_adapter / unsupported TVBox engine: csp_BiliYS
+- site_30 / 玩偶 • 4K：needs_engine_adapter / unsupported TVBox engine: csp_Wogg
+- site_31 / 快映 • 4K：needs_engine_adapter / unsupported TVBox engine: csp_PanWebShare
+- site_32 / 木偶 • 4K：needs_engine_adapter / unsupported TVBox engine: csp_PanWebShare
+- site_33 / 蜡笔 • 4K：needs_engine_adapter / unsupported TVBox engine: csp_PanWebShare
+- site_34 / 闪电 • 4K：needs_engine_adapter / unsupported TVBox engine: csp_PanWebShare
+- site_35 / 至臻 • 4K：needs_engine_adapter / unsupported TVBox engine: csp_PanWebShare
+- site_36 / 多多 • 4K：needs_engine_adapter / unsupported TVBox engine: csp_PanWebShare
+- site_37 / 欧哥 • 4K：needs_engine_adapter / unsupported TVBox engine: csp_PanWebShare
+- site_38 / 二小 • 4K：needs_engine_adapter / unsupported TVBox engine: csp_PanWebShare
+- site_39 / 虎斑 • 4K：needs_engine_adapter / unsupported TVBox engine: csp_PanWebShare
+- site_40 / 种子 • 4K：needs_engine_adapter / unsupported TVBox engine: csp_SeedHub
+- site_41 / 夸父 • 4K：needs_engine_adapter / unsupported TVBox engine: csp_PanWebShareKF
+- 123 / 123 • 4K：needs_engine_adapter / unsupported TVBox engine: csp_PanWebShare123
+- site_43 / 指南 • 4K：needs_engine_adapter / unsupported TVBox engine: csp_4KZhinan
+- site_44 / 移动 • 4K：needs_engine_adapter / unsupported TVBox engine: csp_Yidong4K
+- site_45 / 人人 • 4K：needs_engine_adapter / unsupported TVBox engine: csp_RenRen
+- site_46 / 即刻 • 4K：needs_engine_adapter / unsupported TVBox engine: csp_Jike
+- site_47 / 双星 • 4K：needs_engine_adapter / unsupported TVBox engine: csp_ShuangXing
+- site_48 / 七猫 • 短剧：needs_engine_adapter / unsupported TVBox engine: csp_ShortQimao
+- site_49 / 河马 • 短剧：needs_engine_adapter / unsupported TVBox engine: csp_ShortHema
+- site_50 / 围观 • 短剧：needs_engine_adapter / unsupported TVBox engine: csp_ShortWeiguan
+- site_51 / 好看 • 短剧：needs_engine_adapter / unsupported TVBox engine: csp_ShortHaokan
+- site_52 / 星芽 • 短剧：needs_engine_adapter / unsupported TVBox engine: csp_ShortXingya
+- site_53 / 果果 • 短剧：needs_engine_adapter / unsupported TVBox engine: csp_XBPQ
+- site_54 / 瓜子 • 影视：needs_engine_adapter / unsupported TVBox engine: csp_Gz360
+- site_55 / 山楂 • 影视：needs_engine_adapter / unsupported TVBox engine: csp_PianKu8
+- site_56 / 飞娱 • 影视：needs_engine_adapter / unsupported TVBox engine: csp_Feiyu
+- site_57 / 独播 • 影视：needs_engine_adapter / unsupported TVBox engine: csp_Duboku
+- site_58 / 厂长 • 影视：needs_engine_adapter / unsupported TVBox engine: csp_Czsapp
+- site_59 / 金牌 • 影视：needs_engine_adapter / unsupported TVBox engine: csp_Jpys
+- site_60 / 修罗 • 影视：needs_engine_adapter / unsupported TVBox engine: csp_Xlys
+- site_61 / 骚火 • 影视：needs_engine_adapter / unsupported TVBox engine: csp_SaoHuo
+- site_62 / 农民 • 影视：needs_engine_adapter / unsupported TVBox engine: csp_Wwys
+- site_63 / 枫叶 • 影视：needs_engine_adapter / unsupported TVBox engine: csp_FengYe
+- site_64 / 爱看 • 影视：needs_engine_adapter / unsupported TVBox engine: csp_Ikanbot
+- site_65 / 小镇 • 影视：needs_engine_adapter / unsupported TVBox engine: csp_XBPQ
+- site_66 / 面包 • 影视：needs_engine_adapter / unsupported TVBox engine: csp_XBPQ
+- site_67 / 永乐 • 影视：needs_engine_adapter / unsupported TVBox engine: csp_XBPQ
+- site_68 / 剧圈 • 影视：needs_engine_adapter / unsupported TVBox engine: csp_XYQHiker
+- 1905 / 1905 • 影视：needs_engine_adapter / unsupported TVBox engine: csp_Web1905
+- site_70 / 番社 • 动漫：needs_engine_adapter / unsupported TVBox engine: csp_XBPQ
+- 99_3 / 双星 • 动漫：needs_engine_adapter / unsupported TVBox engine: csp_App99
+- site_72 / 喵呜 • 动漫：needs_engine_adapter / unsupported TVBox engine: csp_MiaoWu
+- site_73 / 魔都 • 动漫：needs_engine_adapter / unsupported TVBox engine: csp_MoDu
+- site_74 / 漫国 • 动漫：needs_engine_adapter / unsupported TVBox engine: csp_AppSy
+- site_75 / 方舟 • 动漫：needs_engine_adapter / unsupported TVBox engine: csp_AppGet
+- site_76 / 曼波 • 动漫：needs_engine_adapter / unsupported TVBox engine: csp_AppGet
+- site_77 / 咕咕 • 动漫：needs_engine_adapter / unsupported TVBox engine: csp_AppGet
+- site_78 / 巴士 • 动漫：needs_engine_adapter / unsupported TVBox engine: csp_XBPQ
+- site_79 / 路漫漫 • 动漫：needs_engine_adapter / unsupported TVBox engine: https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js
+- site_80 / 去看吧 • 动漫：needs_engine_adapter / unsupported TVBox engine: https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js
+- site_81 / 荐片 • 磁力：needs_engine_adapter / unsupported TVBox engine: csp_JianPian
+- site_82 / 七味 • 磁力：needs_engine_adapter / unsupported TVBox engine: csp_QnMp4
+- New6v / New6V • 磁力：needs_engine_adapter / unsupported TVBox engine: csp_New6v
+- site_84 / 美剧迷 • 磁力：needs_engine_adapter / unsupported TVBox engine: csp_MeijuMi
+- site_85 / 迅雷吧 • 磁力：needs_engine_adapter / unsupported TVBox engine: csp_Xunlei8
+- site_86 / 电影港 • 磁力：needs_engine_adapter / unsupported TVBox engine: csp_XYQHiker
+- site_87 / 阿里 • 云盘：needs_engine_adapter / unsupported TVBox engine: csp_PanAli
+- site_88 / 夸克 • 网盘：needs_engine_adapter / unsupported TVBox engine: csp_PanQuark
+- UC / UC • 网盘：needs_engine_adapter / unsupported TVBox engine: csp_PanUC
+- site_90 / 百度 • 网盘：needs_engine_adapter / unsupported TVBox engine: csp_PanBaidu
+- site_91 / 聚合 • 搜索：needs_engine_adapter / unsupported TVBox engine: csp_JuheSo
+- site_92 / 盘搜 • 搜索：needs_engine_adapter / unsupported TVBox engine: csp_PanSou
+- site_93 / 米搜 • 搜索：needs_engine_adapter / unsupported TVBox engine: csp_MiSou
+- site_94 / 百酷 • 搜索：needs_engine_adapter / unsupported TVBox engine: csp_Baiku
+- site_95 / 酷乐 • 搜索：needs_engine_adapter / unsupported TVBox engine: csp_KuLe
+- site_96 / 鬼鬼 • 搜索：needs_engine_adapter / unsupported TVBox engine: csp_GuiGui
+- site_97 / 趣盘 • 搜索：needs_engine_adapter / unsupported TVBox engine: csp_QuPanSo
+- 88 / 88 • 看球：needs_engine_adapter / unsupported TVBox engine: csp_Sports88
+- site_99 / 球通 • 体育：needs_engine_adapter / unsupported TVBox engine: csp_SportsQiutong
+- site_100 / 瓜子 • 体育：needs_engine_adapter / unsupported TVBox engine: csp_SportsGuazi
+- site_101 / 咖啡 • 体育：needs_engine_adapter / unsupported TVBox engine: csp_SportsKafei
+- DJ / 呦呦 • DJ：needs_engine_adapter / unsupported TVBox engine: csp_Djuu
+- DJ_2 / 轮回 • DJ：needs_engine_adapter / unsupported TVBox engine: csp_Djlh
+- FM / 蜻蜓 • FM：needs_engine_adapter / unsupported TVBox engine: csp_QingtingFM
+- site_105 / 世界 • 听书：needs_engine_adapter / unsupported TVBox engine: csp_TingShijie
+- site_106 / 堇夏 • 听书：needs_engine_adapter / unsupported TVBox engine: csp_TingJinxia
+- site_107 / 博看 • 听书：needs_engine_adapter / unsupported TVBox engine: csp_TingBokan
+- site_108 / 戏曲 • 多多：needs_engine_adapter / unsupported TVBox engine: csp_AppLY
+- site_109 / 童趣 • 儿童：needs_engine_adapter / unsupported TVBox engine: csp_TongQu
+- site_110 / 兔小贝 • 儿童：needs_engine_adapter / unsupported TVBox engine: csp_TuXiaoBei
+- site_111 / 贝乐虎 • 儿童：needs_engine_adapter / unsupported TVBox engine: csp_BeiLeHu
+- site_112 / 爱听 • 音乐：needs_engine_adapter / unsupported TVBox engine: ./py/爱听音乐.py
+- site_113 / 网络 • 直播：needs_engine_adapter / unsupported TVBox engine: csp_ALLLive
+- site_114 / 哔哩 • 音乐：needs_engine_adapter / unsupported TVBox engine: csp_Bili
+- site_115 / 哔哩 • 听书：needs_engine_adapter / unsupported TVBox engine: csp_Bili
+- site_116 / 哔哩 • 相声：needs_engine_adapter / unsupported TVBox engine: csp_Bili
+- site_117 / 哔哩 • 小品：needs_engine_adapter / unsupported TVBox engine: csp_Bili
+- site_118 / 哔哩 • 戏曲：needs_engine_adapter / unsupported TVBox engine: csp_Bili
+- site_119 / 少儿 • 教育：needs_engine_adapter / unsupported TVBox engine: csp_Bili
+- site_120 / 小学 • 课堂：needs_engine_adapter / unsupported TVBox engine: csp_Bili
+- site_121 / 初中 • 课堂：needs_engine_adapter / unsupported TVBox engine: csp_Bili
+- site_122 / 高中 • 课堂：needs_engine_adapter / unsupported TVBox engine: csp_Bili
+- site_123 / 急救 • 教学：needs_engine_adapter / unsupported TVBox engine: csp_FirstAid
+- site_124 / 养生 • 知识：needs_engine_adapter / unsupported TVBox engine: csp_YST
+- site_126 / 影视 • 天涯：upstream_error / 仙逆: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+- site_129 / 影视 • 索尼[直连]：upstream_error / 仙逆: HTTPError: HTTP Error 403: Forbidden
+- site_130 / 影视 • 卧龙资源[直连]：upstream_error / 仙逆: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+- U / 影视 • 尤酷[直连]：upstream_error / 仙逆: URLError: <urlopen error _ssl.c:990: The handshake operation timed out>
+- site_133 / 影视 • 建安：json_no_playable / 仙逆: list=20, playable_m3u8=0
+- site_134 / 影视 • 金蝉：upstream_error / 仙逆: URLError: <urlopen error _ssl.c:990: The handshake operation timed out>
+- site_135 / 影视 • 小绵阳：upstream_error / 仙逆: URLError: <urlopen error _ssl.c:990: The handshake operation timed out>
+- 789 / 789采集：upstream_error / 仙逆: URLError: <urlopen error _ssl.c:990: The handshake operation timed out>
+- site_137 / 影视 • 率率[直连]：upstream_error / 仙逆: HTTPError: HTTP Error 403: Forbidden
+- drpy_js_360 / 官源 • 360[js]：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- drpy_js_2 / 官源 • 芒果[js]：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- drpy_js_3 / 官源 • 腾讯[js]：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- drpy_js_4 / 官源 • 爱奇艺[js]：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- drpy_js_5 / 官源 • 搜狗[js]：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- drpy_js_6 / 官源 • 优酷[js]：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- drpy_js_Anime1 / 动漫 • Anime1动畫[js]：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- drpy_js_NT / 动漫 • NT动漫[js]：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- drpy_js_7 / 动漫 • 路漫漫[js]：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- drpy_js_8 / 动漫 • 去看吧[js]：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- drpy_js_A8 / 音频 • A8音乐[js]：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- drpy_js_DJ / 音频 • DJ音乐[js]：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- drpy_js__FM / 广播 • 蜻蜓FM[js]：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- drpy_js_9 / 听书 • 爱上你听书[js]：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- drpy_js_10 / 听书 • 博看听书[js]：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- drpy_js_11 / 听书 • 海洋听书[js]：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- drpy_js_12 / 听书 • 有声小说[js]：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- drpy_js_13 / 聚合 • 播客[js]：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- drpy_js__6 / 聚合 • 酷6网[js]：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- drpy_js_14 / 聚合 • 网易公版[js]：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js
+- push_agent / 手机｜推送：needs_engine_adapter / unsupported TVBox engine: csp_Push
+- site_161 / 應用商店：needs_engine_adapter / unsupported TVBox engine: csp_Market
+- bb / 配置接口完全免费：needs_engine_adapter / TimeoutError: timed out
+- cc / 请勿相信视频中任何广告：needs_engine_adapter / unsupported TVBox engine: ./lib/drpy2.min.js

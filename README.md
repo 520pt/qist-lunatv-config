@@ -51,6 +51,28 @@ LunaTV-config-bridge.json
 
 这样不会出现“配置里看起来有源，但实际不能用还不知道原因”的情况。
 
+
+## 完整测试
+
+运行：
+
+```powershell
+python -X utf8 scripts\full_test_sources.py
+```
+
+当前完整测试结果：
+
+- qist sites 总数：163
+- LunaTV/MoonTVPlus 可直接使用：6
+- 需要后续实现 TVBox 引擎适配：148
+- 上游异常：8
+- 有 JSON 但没有 MoonTVPlus 会保留的 `.m3u8` 播放结果：1
+
+测试报告：
+
+- `full-test-report.json`
+- `full-test-report.md`
+
 ## 文件说明
 
 - `LunaTV-config.txt`：直连实测可用版，Base58 编码。
