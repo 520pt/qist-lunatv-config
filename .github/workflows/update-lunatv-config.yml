@@ -19,29 +19,34 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate LunaTV config
+      - name: Generate LunaTV configs
         run: python3 scripts/update_lunatv_config.py
 
-      - name: Verify generated config
+      - name: Verify generated configs
         run: |
           python3 - <<'PY'
           import json
           from pathlib import Path
-          data = json.loads(Path('LunaTV-config.json').read_text(encoding='utf-8'))
-          assert data['cache_time'] == 7200
-          assert len(data['api_site']) > 0
+          compatible = json.loads(Path('LunaTV-config.json').read_text(encoding='utf-8'))
+          all_sites = json.loads(Path('LunaTV-config-all.json').read_text(encoding='utf-8'))
+          tvbox = json.loads(Path('tvbox-jsm.json').read_text(encoding='utf-8'))
+          assert compatible['cache_time'] == 7200
+          assert len(compatible['api_site']) > 0
+          assert len(all_sites['api_site']) == len(tvbox['sites'])
           assert Path('LunaTV-config.txt').read_text(encoding='utf-8').strip()
-          print('sites=', len(data['api_site']))
+          assert Path('LunaTV-config-all.txt').read_text(encoding='utf-8').strip()
+          print('compatible_sites=', len(compatible['api_site']))
+          print('all_sites=', len(all_sites['api_site']))
           PY
 
       - name: Commit changes
         run: |
-          if git diff --quiet -- LunaTV-config.txt LunaTV-config.json; then
+          if git diff --quiet -- LunaTV-config.txt LunaTV-config.json LunaTV-config-all.txt LunaTV-config-all.json tvbox-jsm.json; then
             echo "No changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add LunaTV-config.txt LunaTV-config.json
-          git commit -m "Update LunaTV config"
+          git add LunaTV-config.txt LunaTV-config.json LunaTV-config-all.txt LunaTV-config-all.json tvbox-jsm.json
+          git commit -m "Update LunaTV configs"
           git push
