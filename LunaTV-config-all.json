@@ -554,9 +554,7 @@
           "site": [
             "http://tvpanpan.site",
             "http://feimo.fun",
-            "http://xiaocgege.shop",
-            "http://www.xiaocgege.shop",
-            "https://www.xiaocge.fun"
+            "https://www.mmpanpan.site"
           ]
         },
         "compatible": false
@@ -581,8 +579,8 @@
     },
     "site_35": {
       "name": "🎬至臻4K",
-      "api": "https://mihdr.top",
-      "detail": "https://mihdr.top",
+      "api": "https://sp.zzzy.shop",
+      "detail": "https://sp.zzzy.shop",
       "_tvbox": {
         "key": "至臻",
         "name": "至臻 • 4K",
@@ -590,8 +588,9 @@
         "api": "csp_PanWebShare",
         "ext": {
           "site": [
-            "https://mihdr.top",
-            "https://www.miqk.cc",
+            "https://sp.zzzy.shop",
+            "https://www.zhizhen8.click",
+            "https://www.zhizhen1.top",
             "https://www.mihdr.top"
           ]
         },
@@ -639,8 +638,8 @@
     },
     "site_38": {
       "name": "🎬二小4K",
-      "api": "https://www.2xiaopan.top",
-      "detail": "https://www.2xiaopan.top",
+      "api": "http://www.wexwp.cc",
+      "detail": "http://www.wexwp.cc",
       "_tvbox": {
         "key": "二小",
         "name": "二小 • 4K",
@@ -648,11 +647,9 @@
         "api": "csp_PanWebShare",
         "ext": {
           "site": [
-            "https://www.2xiaopan.top",
-            "https://2xiaopan.top",
-            "https://www.erxiaozhan.top",
-            "https://www.2xiaozhan.top",
-            "https://wexwp.cc"
+            "http://www.wexwp.cc",
+            "https://www.2xiaopan.one",
+            "https://www.wexwp.cc"
           ]
         },
         "compatible": false
