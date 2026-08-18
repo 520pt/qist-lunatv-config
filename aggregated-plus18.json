@@ -506,6 +506,16 @@
       "api": "https://api.ukuapi.com/api.php/provide/vod",
       "detail": "https://api.ukuapi.com"
     },
+    "api_1080zyku_com_inc_api_mac10_php": {
+      "name": "🎬1080资源库",
+      "api": "https://api.1080zyku.com/inc/api_mac10.php",
+      "detail": "https://api.1080zyku.com"
+    },
+    "www_iqiyizyapi_com_provide_vod": {
+      "name": "🎬iqiyi资源",
+      "api": "https://www.iqiyizyapi.com/api.php/provide/vod",
+      "detail": "https://www.iqiyizyapi.com"
+    },
     "api_wujinapi_cc_provide_vod": {
       "name": "🎬wujinapi无尽",
       "api": "https://api.wujinapi.cc/api.php/provide/vod",
@@ -520,6 +530,11 @@
       "name": "🎬牛牛点播",
       "api": "https://api.niuniuzy.me/api.php/provide/vod",
       "detail": "https://api.niuniuzy.me"
+    },
+    "api_1080zyku_com_inc_apijson_php": {
+      "name": "🎬神马云",
+      "api": "https://api.1080zyku.com/inc/apijson.php",
+      "detail": "https://api.1080zyku.com"
     },
     "www_hongniuzy3_com_provide_vod": {
       "name": "🎬红牛资源",
@@ -565,11 +580,6 @@
       "name": "🎬ikun资源",
       "api": "https://ikunzyapi.com/api.php/provide/vod/at/json",
       "detail": "https://ikunzyapi.com"
-    },
-    "www_iqiyizyapi_com_provide_vod": {
-      "name": "🎬iqiyi资源",
-      "api": "https://www.iqiyizyapi.com/api.php/provide/vod",
-      "detail": "https://www.iqiyizyapi.com"
     },
     "cdn_dzzyapi_com_provide_vod": {
       "name": "🎬大众资源采集接口",
@@ -666,10 +676,10 @@
       "api": "https://www.xrbsp.com/api/json.php",
       "detail": "https://www.xrbsp.com"
     },
-    "www_gdlsp_com_api_json_php": {
-      "name": "🔞香奶儿资源",
-      "api": "https://www.gdlsp.com/api/json.php",
-      "detail": "https://www.gdlsp.com"
+    "www_feifei67_com_provide_vod": {
+      "name": "🔞成人22",
+      "api": "http://www.feifei67.com/api.php/provide/vod",
+      "detail": "http://www.feifei67.com"
     },
     "slapibf_com_provide_vod": {
       "name": "🔞森林资源",
@@ -680,6 +690,11 @@
       "name": "🔞豪华资源",
       "api": "https://hhzyapi.com/api.php/provide/vod/from/hhm3u8/at/json",
       "detail": "https://hhzyapi.com"
+    },
+    "www_gdlsp_com_api_json_php": {
+      "name": "🔞香奶儿资源",
+      "api": "https://www.gdlsp.com/api/json.php",
+      "detail": "https://www.gdlsp.com"
     }
   }
 }
