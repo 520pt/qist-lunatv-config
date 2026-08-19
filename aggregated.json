@@ -611,6 +611,11 @@
       "api": "https://taopianapi.com/cjapi/mc10/vod/json.html",
       "detail": "https://www.taopianzy.com/help.html"
     },
+    "maoyanzy_com_provide_vod": {
+      "name": "🎬猫眼资源",
+      "api": "https://maoyanzy.com/api.php/provide/vod",
+      "detail": "https://maoyanzy.com"
+    },
     "www_suoniapi_com_provide_vod": {
       "name": "🎬索尼资源",
       "api": "https://www.suoniapi.com/api.php/provide/vod",
