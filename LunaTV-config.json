@@ -1,11 +1,6 @@
 {
   "cache_time": 7200,
   "api_site": {
-    "caiji_dyttzyapi_com": {
-      "name": "🎬电影天堂",
-      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
-      "detail": "http://caiji.dyttzyapi.com"
-    },
     "cj_lziapi_com": {
       "name": "🎬量子",
       "api": "https://cj.lziapi.com/api.php/provide/vod",
