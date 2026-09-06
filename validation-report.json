@@ -7,6 +7,14 @@
   ],
   "supported": [
     {
+      "key": "caiji_dyttzyapi_com",
+      "name": "🎬电影天堂",
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
+      "keyword": "斗罗",
+      "results": 13,
+      "playable": 13
+    },
+    {
       "key": "cj_lziapi_com",
       "name": "🎬量子",
       "api": "https://cj.lziapi.com/api.php/provide/vod",
@@ -57,12 +65,6 @@
   ],
   "unsupported": [
     {
-      "key": "caiji_dyttzyapi_com",
-      "name": "🎬电影天堂",
-      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
-      "error": "仙逆: URLError: <urlopen error timed out>"
-    },
-    {
       "key": "tyyszy_com",
       "name": "🎬天涯",
       "api": "http://tyyszy.com/api.php/provide/vod",
@@ -100,6 +102,6 @@
     }
   ],
   "candidate_count": 13,
-  "supported_count": 6,
+  "supported_count": 7,
   "live_count": 3
 }
