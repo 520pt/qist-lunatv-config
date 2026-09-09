@@ -613,8 +613,8 @@
     },
     "www_qilinzyz_com_provide_vod": {
       "name": "🎬麒麟资源站全站采集接口",
-      "api": "http://www.qilinzyz.com/api.php/provide/vod",
-      "detail": "http://www.qilinzyz.com"
+      "api": "https://www.qilinzyz.com/api.php/provide/vod",
+      "detail": "https://www.qilinzyz.com"
     },
     "hsckzy888_com_provide_vod": {
       "name": "🎬黄色资源啊啊",
@@ -641,15 +641,15 @@
       "api": "https://www.gdlsp.com/api/json.php",
       "detail": "https://www.gdlsp.com"
     },
-    "www_feifei67_com_provide_vod": {
-      "name": "🔞成人22",
-      "api": "http://www.feifei67.com/api.php/provide/vod",
-      "detail": "http://www.feifei67.com"
-    },
     "slapibf_com_provide_vod": {
       "name": "🔞森林资源",
       "api": "https://slapibf.com/api.php/provide/vod",
       "detail": "https://slapibf.com"
+    },
+    "jcspcj8_com_api": {
+      "name": "🔞熊猫资源",
+      "api": "http://jcspcj8.com/api",
+      "detail": "http://jcspcj8.com"
     },
     "hhzyapi_com_at_json": {
       "name": "🔞豪华资源",
