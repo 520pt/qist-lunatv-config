@@ -3,21 +3,21 @@
     "sources": [
       {
         "url": "https://raw.githubusercontent.com/hafrey1/LunaTV-config/main/LunaTV-config.txt",
-        "api_site": 72,
-        "added": 72,
+        "api_site": 69,
+        "added": 69,
         "duplicates": 0
       },
       {
         "url": "https://raw.githubusercontent.com/qianqikun/LunaTV-config/main/LunaTV-config.txt",
         "api_site": 78,
-        "added": 19,
-        "duplicates": 59
+        "added": 22,
+        "duplicates": 56
       },
       {
         "url": "https://raw.githubusercontent.com/netput-web/LunaTV-config/main/LunaTV-config.txt",
         "api_site": 78,
-        "added": 8,
-        "duplicates": 70
+        "added": 9,
+        "duplicates": 69
       },
       {
         "url": "https://raw.githubusercontent.com/smallmain/moontv-aggr-config/main/full.txt",
@@ -26,30 +26,30 @@
         "duplicates": 39
       }
     ],
-    "skipped_duplicates": 168,
+    "skipped_duplicates": 164,
     "failed": [],
-    "total_api_site": 124,
+    "total_api_site": 125,
     "total_lives": 0
   },
   "plus18": {
     "sources": [
       {
         "url": "https://raw.githubusercontent.com/hafrey1/LunaTV-config/main/LunaTV-config.txt",
-        "api_site": 72,
-        "added": 72,
+        "api_site": 69,
+        "added": 69,
         "duplicates": 0
       },
       {
         "url": "https://raw.githubusercontent.com/qianqikun/LunaTV-config/main/LunaTV-config.txt",
         "api_site": 78,
-        "added": 19,
-        "duplicates": 59
+        "added": 22,
+        "duplicates": 56
       },
       {
         "url": "https://raw.githubusercontent.com/netput-web/LunaTV-config/main/LunaTV-config.txt",
         "api_site": 78,
-        "added": 8,
-        "duplicates": 70
+        "added": 9,
+        "duplicates": 69
       },
       {
         "url": "https://raw.githubusercontent.com/smallmain/moontv-aggr-config/main/full.txt",
@@ -82,9 +82,9 @@
         "duplicates": 91
       }
     ],
-    "skipped_duplicates": 360,
+    "skipped_duplicates": 356,
     "failed": [],
-    "total_api_site": 129,
+    "total_api_site": 130,
     "total_lives": 0
   }
 }

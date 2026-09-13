@@ -98,7 +98,7 @@
     },
     "p2100_net": {
       "name": "🎬飘零资源",
-      "api": "https://p2100.net/api.php/provide/vod",
+      "api": "https://pz.v88.qzz.io/?url=https://p2100.net/api.php/provide/vod",
       "detail": "https://p2100.net"
     },
     "api_ukuapi88_com": {
@@ -201,11 +201,6 @@
       "api": "https://91md.me/api.php/provide/vod",
       "detail": "https://91md.me"
     },
-    "lbapiby_com": {
-      "name": "🔞--AIvin-",
-      "api": "http://lbapiby.com/api.php/provide/vod",
-      "detail": "http://lbapiby.com"
-    },
     "155zy2_com": {
       "name": "🔞155-资源",
       "api": "https://155api.com/api.php/provide/vod",
@@ -286,11 +281,6 @@
       "api": "https://www.heiliaozyapi.com/api.php/provide/vod",
       "detail": "https://heiliaozy.cc"
     },
-    "api_bwzym3u8_com": {
-      "name": "🔞百万资源",
-      "api": "https://api.bwzyz.com/api.php/provide/vod",
-      "detail": "https://api.bwzym3u8.com"
-    },
     "thzy8_me": {
       "name": "🔞桃花资源",
       "api": "https://thzy1.me/api.php/provide/vod",
@@ -356,11 +346,6 @@
       "api": "https://aosikazy.com/api.php/provide/vod",
       "detail": "https://aosikazy.com"
     },
-    "siwazyw_tv": {
-      "name": "🔞丝袜资源",
-      "api": "https://siwazyw.tv/api.php/provide/vod",
-      "detail": "https://siwazyw.tv"
-    },
     "tyyszyapi": {
       "name": "🎬天涯影视",
       "api": "https://tyyszy.com/api.php/provide/vod",
@@ -406,6 +391,11 @@
       "api": "https://jinyingzy.com/api.php/provide/vod",
       "detail": "https://jinyingzy.com"
     },
+    "p2100": {
+      "name": "🎬飘零资源",
+      "api": "https://p2100.net/api.php/provide/vod",
+      "detail": "https://p2100.net"
+    },
     "uku": {
       "name": "🎬U酷资源",
       "api": "https://jjpz.hafrey.dpdns.org/?url=https://api.ukuapi.com/api.php/provide/vod",
@@ -415,6 +405,16 @@
       "name": "🎬U酷88",
       "api": "https://jjpz.hafrey.dpdns.org/?url=https://api.ukuapi88.com/api.php/provide/vod",
       "detail": "https://api.ukuapi88.com"
+    },
+    "lbapiby": {
+      "name": "🔞AIvin",
+      "api": "http://lbapiby.com/api.php/provide/vod",
+      "detail": "http://lbapiby.com"
+    },
+    "bwzy2": {
+      "name": "🔞百万资源",
+      "api": "https://api.bwzyz.com/api.php/provide/vod",
+      "detail": "https://api.bwzym3u8.com"
     },
     "souavzy": {
       "name": "🔞souavZY",
@@ -495,6 +495,11 @@
       "name": "🔞辣椒资源",
       "api": "https://pz.168188.dpdns.org/?url=https://apilj.com/api.php/provide/vod",
       "detail": "https://apilj.com"
+    },
+    "siwazyw_tv": {
+      "name": "🔞丝袜资源",
+      "api": "https://siwazyw.tv/api.php/provide/vod",
+      "detail": "https://siwazyw.tv"
     },
     "api_apibdzy_com_provide_vod": {
       "name": "🎬百度云zy",
