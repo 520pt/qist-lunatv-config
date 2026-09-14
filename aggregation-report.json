@@ -10,8 +10,8 @@
       {
         "url": "https://raw.githubusercontent.com/qianqikun/LunaTV-config/main/LunaTV-config.txt",
         "api_site": 78,
-        "added": 22,
-        "duplicates": 56
+        "added": 21,
+        "duplicates": 57
       },
       {
         "url": "https://raw.githubusercontent.com/netput-web/LunaTV-config/main/LunaTV-config.txt",
@@ -26,9 +26,9 @@
         "duplicates": 39
       }
     ],
-    "skipped_duplicates": 164,
+    "skipped_duplicates": 165,
     "failed": [],
-    "total_api_site": 122,
+    "total_api_site": 121,
     "total_lives": 0
   },
   "plus18": {
@@ -42,8 +42,8 @@
       {
         "url": "https://raw.githubusercontent.com/qianqikun/LunaTV-config/main/LunaTV-config.txt",
         "api_site": 78,
-        "added": 22,
-        "duplicates": 56
+        "added": 21,
+        "duplicates": 57
       },
       {
         "url": "https://raw.githubusercontent.com/netput-web/LunaTV-config/main/LunaTV-config.txt",
@@ -82,9 +82,9 @@
         "duplicates": 90
       }
     ],
-    "skipped_duplicates": 355,
+    "skipped_duplicates": 356,
     "failed": [],
-    "total_api_site": 128,
+    "total_api_site": 127,
     "total_lives": 0
   }
 }

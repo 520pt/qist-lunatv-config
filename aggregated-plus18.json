@@ -98,7 +98,7 @@
     },
     "p2100_net": {
       "name": "🎬飘零资源",
-      "api": "https://pz.v88.qzz.io/?url=https://p2100.net/api.php/provide/vod",
+      "api": "https://p2100.net/api.php/provide/vod",
       "detail": "https://p2100.net"
     },
     "api_ukuapi88_com": {
@@ -390,11 +390,6 @@
       "name": "🎬金鹰点播",
       "api": "https://jinyingzy.com/api.php/provide/vod",
       "detail": "https://jinyingzy.com"
-    },
-    "p2100": {
-      "name": "🎬飘零资源",
-      "api": "https://p2100.net/api.php/provide/vod",
-      "detail": "https://p2100.net"
     },
     "uku": {
       "name": "🎬U酷资源",
