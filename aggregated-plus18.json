@@ -531,11 +531,6 @@
       "api": "https://api.wujinapi.net/api.php/provide/vod",
       "detail": "https://api.wujinapi.net"
     },
-    "api_niuniuzy_me_provide_vod": {
-      "name": "🎬牛牛点播",
-      "api": "https://api.niuniuzy.me/api.php/provide/vod",
-      "detail": "https://api.niuniuzy.me"
-    },
     "api_1080zyku_com_inc_apijson_php": {
       "name": "🎬神马云",
       "api": "https://api.1080zyku.com/inc/apijson.php",
@@ -571,11 +566,6 @@
       "api": "https://www.ckzy1.com/api.php/provide/vod",
       "detail": "https://www.ckzy1.com"
     },
-    "api_okzyw_net_provide_vod": {
-      "name": "🎬OK资源采集网采集接口",
-      "api": "https://api.okzyw.net/api.php/provide/vod",
-      "detail": "https://okzyw.cc/index.php/label/help.html"
-    },
     "tyyszyapi_com_provide_vod": {
       "name": "🎬天涯影视",
       "api": "https://tyyszyapi.com/api.php/provide/vod",
@@ -591,10 +581,10 @@
       "api": "https://yonghu.ffzyapi8.com/api.php/provide/vod/from/ffm3u8/at/json",
       "detail": "https://yonghu.ffzyapi8.com"
     },
-    "taopianapi_com_vod_json_html": {
-      "name": "🎬淘片资源",
-      "api": "https://taopianapi.com/cjapi/mc10/vod/json.html",
-      "detail": "https://www.taopianzy.com/help.html"
+    "api_niuniuzy_me_provide_vod": {
+      "name": "🎬牛牛点播",
+      "api": "https://api.niuniuzy.me/api.php/provide/vod",
+      "detail": "https://api.niuniuzy.me"
     },
     "maoyanzy_com_provide_vod": {
       "name": "🎬猫眼资源",
@@ -621,16 +611,6 @@
       "api": "https://yhzy.cc/api.php/provide/vod",
       "detail": "https://yhzy.cc"
     },
-    "api_niuniuzy_me_from_nnm3u8": {
-      "name": "🎬🔅牛牛资源ᴴ",
-      "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8",
-      "detail": "https://api.niuniuzy.me"
-    },
-    "www_xrbsp_com_api_json_php": {
-      "name": "🔞饮水机资源",
-      "api": "https://www.xrbsp.com/api/json.php",
-      "detail": "https://www.xrbsp.com"
-    },
     "www_gdlsp_com_api_json_php": {
       "name": "🔞香奶儿资源",
       "api": "https://www.gdlsp.com/api/json.php",
@@ -640,6 +620,16 @@
       "name": "🔞森林资源",
       "api": "https://slapibf.com/api.php/provide/vod",
       "detail": "https://slapibf.com"
+    },
+    "www_xrbsp_com_api_json_php": {
+      "name": "🔞淫水机资源",
+      "api": "https://www.xrbsp.com/api/json.php",
+      "detail": "https://www.xrbsp.com"
+    },
+    "jcspcj8_com_api": {
+      "name": "🔞熊猫资源",
+      "api": "http://jcspcj8.com/api",
+      "detail": "http://jcspcj8.com"
     },
     "hhzyapi_com_at_json": {
       "name": "🔞豪华资源",
