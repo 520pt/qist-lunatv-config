@@ -610,25 +610,6 @@
       }
     },
     "site_38": {
-      "name": "🎬蜡笔4K",
-      "api": "http://tvpanpan.site",
-      "detail": "http://tvpanpan.site",
-      "_tvbox": {
-        "key": "蜡笔",
-        "name": "蜡笔 • 4K",
-        "type": 3,
-        "api": "csp_PanWebShare",
-        "ext": {
-          "site": [
-            "http://tvpanpan.site",
-            "http://feimo.fun",
-            "https://www.mmpanpan.site"
-          ]
-        },
-        "compatible": false
-      }
-    },
-    "site_39": {
       "name": "🎬闪电4K",
       "api": "http://shandian.blog",
       "detail": "http://shandian.blog",
@@ -645,27 +626,7 @@
         "compatible": false
       }
     },
-    "site_40": {
-      "name": "🎬至臻4K",
-      "api": "https://sp.zzzy.shop",
-      "detail": "https://sp.zzzy.shop",
-      "_tvbox": {
-        "key": "至臻",
-        "name": "至臻 • 4K",
-        "type": 3,
-        "api": "csp_PanWebShare",
-        "ext": {
-          "site": [
-            "https://sp.zzzy.shop",
-            "https://www.zhizhen8.click",
-            "https://www.zhizhen1.top",
-            "https://www.mihdr.top"
-          ]
-        },
-        "compatible": false
-      }
-    },
-    "site_41": {
+    "site_39": {
       "name": "🎬多多4K",
       "api": "https://tv.yydsys.top",
       "detail": "https://tv.yydsys.top",
@@ -684,46 +645,7 @@
         "compatible": false
       }
     },
-    "site_42": {
-      "name": "🎬欧哥4K",
-      "api": "https://woog.nxog.eu.org",
-      "detail": "https://woog.nxog.eu.org",
-      "_tvbox": {
-        "key": "欧哥",
-        "name": "欧哥 • 4K",
-        "type": 3,
-        "api": "csp_PanWebShare",
-        "ext": {
-          "site": [
-            "https://woog.nxog.eu.org",
-            "https://woog.nxog.fun",
-            "https://woog.nxog.eu.org",
-            "https://woog.430520.xyz"
-          ]
-        },
-        "compatible": false
-      }
-    },
-    "site_43": {
-      "name": "🎬二小4K",
-      "api": "http://www.wexwp.cc",
-      "detail": "http://www.wexwp.cc",
-      "_tvbox": {
-        "key": "二小",
-        "name": "二小 • 4K",
-        "type": 3,
-        "api": "csp_PanWebShare",
-        "ext": {
-          "site": [
-            "http://www.wexwp.cc",
-            "https://www.2xiaopan.one",
-            "https://www.wexwp.cc"
-          ]
-        },
-        "compatible": false
-      }
-    },
-    "site_44": {
+    "site_40": {
       "name": "🎬虎斑4K",
       "api": "http://xhban.xyz",
       "detail": "http://xhban.xyz",
@@ -741,7 +663,7 @@
         "compatible": false
       }
     },
-    "site_45": {
+    "site_41": {
       "name": "🎬种子4K",
       "api": "https://sidhub.cc",
       "detail": "https://sidhub.cc",
@@ -761,7 +683,7 @@
         "compatible": false
       }
     },
-    "site_46": {
+    "site_42": {
       "name": "🎬夸父4K",
       "api": "https://www.kfzy.net",
       "detail": "https://www.kfzy.net",
@@ -797,7 +719,7 @@
         "compatible": false
       }
     },
-    "site_48": {
+    "site_44": {
       "name": "🎬指南4K",
       "api": "csp_4KZhinan",
       "detail": "",
@@ -810,7 +732,7 @@
         "compatible": false
       }
     },
-    "site_49": {
+    "site_45": {
       "name": "🎬爱盼4K",
       "api": "csp_AiPan",
       "detail": "",
@@ -823,7 +745,7 @@
         "compatible": false
       }
     },
-    "site_50": {
+    "site_46": {
       "name": "🎬移动4K",
       "api": "csp_Yidong4K",
       "detail": "",
@@ -836,7 +758,7 @@
         "compatible": false
       }
     },
-    "site_51": {
+    "site_47": {
       "name": "🎬人人4K",
       "api": "csp_RenRen",
       "detail": "",
@@ -849,7 +771,7 @@
         "compatible": false
       }
     },
-    "site_52": {
+    "site_48": {
       "name": "🎬即刻4K",
       "api": "csp_Jike",
       "detail": "",
@@ -862,7 +784,7 @@
         "compatible": false
       }
     },
-    "site_53": {
+    "site_49": {
       "name": "🎬双星4K",
       "api": "csp_ShuangXing",
       "detail": "",
@@ -875,20 +797,7 @@
         "compatible": false
       }
     },
-    "site_54": {
-      "name": "🎬红果短剧",
-      "api": "https://pizazz.us.ci/movie/py/红果短剧.py",
-      "detail": "https://pizazz.us.ci",
-      "_tvbox": {
-        "key": "红果短剧",
-        "name": "红果 • 短剧",
-        "type": 3,
-        "api": "https://pizazz.us.ci/movie/py/红果短剧.py",
-        "ext": null,
-        "compatible": false
-      }
-    },
-    "site_55": {
+    "site_50": {
       "name": "🎬七猫短剧",
       "api": "csp_ShortQimao",
       "detail": "",
@@ -901,7 +810,7 @@
         "compatible": false
       }
     },
-    "site_56": {
+    "site_51": {
       "name": "🎬河马短剧",
       "api": "csp_ShortHema",
       "detail": "",
@@ -914,7 +823,7 @@
         "compatible": false
       }
     },
-    "site_57": {
+    "site_52": {
       "name": "🎬围观短剧",
       "api": "csp_ShortWeiguan",
       "detail": "",
@@ -927,7 +836,7 @@
         "compatible": false
       }
     },
-    "site_58": {
+    "site_53": {
       "name": "🎬好看短剧",
       "api": "csp_ShortHaokan",
       "detail": "",
@@ -940,7 +849,7 @@
         "compatible": false
       }
     },
-    "site_59": {
+    "site_54": {
       "name": "🎬星芽短剧",
       "api": "csp_ShortXingya",
       "detail": "",
@@ -953,7 +862,7 @@
         "compatible": false
       }
     },
-    "site_60": {
+    "site_55": {
       "name": "🎬果果短剧",
       "api": "https://www.mochadj.com/i/{cateId}-{catePg}.html",
       "detail": "https://www.mochadj.com",
@@ -971,7 +880,7 @@
         "compatible": false
       }
     },
-    "site_61": {
+    "site_56": {
       "name": "🎬飞娱影视",
       "api": "csp_Feiyu",
       "detail": "",
@@ -984,7 +893,7 @@
         "compatible": false
       }
     },
-    "site_62": {
+    "site_57": {
       "name": "🎬独播影视",
       "api": "csp_Duboku",
       "detail": "",
@@ -997,7 +906,7 @@
         "compatible": false
       }
     },
-    "site_63": {
+    "site_58": {
       "name": "🎬厂长影视",
       "api": "https://cz01.vip",
       "detail": "https://cz01.vip",
@@ -1010,7 +919,7 @@
         "compatible": false
       }
     },
-    "site_64": {
+    "site_59": {
       "name": "🎬金牌影视",
       "api": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn",
       "detail": "https://y2s52n7.com,https:",
@@ -1023,7 +932,7 @@
         "compatible": false
       }
     },
-    "site_65": {
+    "site_60": {
       "name": "🎬骚火影视",
       "api": "https://shdy5.us",
       "detail": "https://shdy5.us",
@@ -1036,7 +945,7 @@
         "compatible": false
       }
     },
-    "site_66": {
+    "site_61": {
       "name": "🎬枫叶影视",
       "api": "https://www.vip1949.com/",
       "detail": "https://www.vip1949.com",
@@ -1049,7 +958,7 @@
         "compatible": false
       }
     },
-    "site_67": {
+    "site_62": {
       "name": "🎬爱看影视",
       "api": "csp_Ikanbot",
       "detail": "",
@@ -1062,7 +971,7 @@
         "compatible": false
       }
     },
-    "site_68": {
+    "site_63": {
       "name": "🎬面包影视",
       "api": "https://v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
       "detail": "https://v.aiwule.com",
@@ -1081,7 +990,7 @@
         "compatible": false
       }
     },
-    "site_69": {
+    "site_64": {
       "name": "🎬永乐影视",
       "api": "https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
       "detail": "https://www.ylys.tv",
@@ -1100,19 +1009,6 @@
         "compatible": false
       }
     },
-    "site_70": {
-      "name": "🎬剧圈影视",
-      "api": "csp_XYQHiker",
-      "detail": "",
-      "_tvbox": {
-        "key": "剧圈影视",
-        "name": "剧圈 • 影视",
-        "type": 3,
-        "api": "csp_XYQHiker",
-        "ext": "./json/JQYS.json",
-        "compatible": false
-      }
-    },
     "1905": {
       "name": "🎬1905影视",
       "api": "csp_Web1905",
@@ -1126,7 +1022,7 @@
         "compatible": false
       }
     },
-    "site_72": {
+    "site_66": {
       "name": "🎬番社动漫",
       "api": "https://www.dora-video.cn/search/sy/?niandai={year}&cat={class}&tag={cateId}&gaojijiansuo=1&zhuangtai={by}",
       "detail": "https://www.dora-video.cn",
@@ -1177,7 +1073,7 @@
         "compatible": false
       }
     },
-    "site_74": {
+    "site_68": {
       "name": "🎬咕咕动漫",
       "api": "https://www.gugu3.com",
       "detail": "https://www.gugu3.com",
@@ -1194,7 +1090,7 @@
         "compatible": false
       }
     },
-    "site_75": {
+    "site_69": {
       "name": "🎬巴士动漫",
       "api": "https://dmbus.cc/show-{cateId}--{by}-{class}--{year}-{catePg}.html",
       "detail": "https://dmbus.cc",
@@ -1218,33 +1114,7 @@
         "compatible": false
       }
     },
-    "site_76": {
-      "name": "🎬路漫漫动漫",
-      "api": "https://pan.29o.cn/down.php/136fd915b6164bb2dcec424a091bb699.js",
-      "detail": "https://pan.29o.cn",
-      "_tvbox": {
-        "key": "路漫漫",
-        "name": "路漫漫 • 动漫",
-        "type": 3,
-        "api": "https://pan.29o.cn/down.php/136fd915b6164bb2dcec424a091bb699.js",
-        "ext": "./js/LMM.js",
-        "compatible": false
-      }
-    },
-    "site_77": {
-      "name": "🎬去看吧动漫",
-      "api": "https://pan.29o.cn/down.php/136fd915b6164bb2dcec424a091bb699.js",
-      "detail": "https://pan.29o.cn",
-      "_tvbox": {
-        "key": "去看吧",
-        "name": "去看吧 • 动漫",
-        "type": 3,
-        "api": "https://pan.29o.cn/down.php/136fd915b6164bb2dcec424a091bb699.js",
-        "ext": "./js/QKB.js",
-        "compatible": false
-      }
-    },
-    "site_78": {
+    "site_70": {
       "name": "🎬荐片磁力",
       "api": "csp_JianPian",
       "detail": "",
@@ -1270,7 +1140,7 @@
         "compatible": false
       }
     },
-    "site_80": {
+    "site_72": {
       "name": "🎬美剧迷磁力",
       "api": "csp_MeijuMi",
       "detail": "",
@@ -1283,7 +1153,7 @@
         "compatible": false
       }
     },
-    "site_81": {
+    "site_73": {
       "name": "🎬迅雷吧磁力",
       "api": "https://xunlei8.me",
       "detail": "https://xunlei8.me",
@@ -1296,20 +1166,7 @@
         "compatible": false
       }
     },
-    "site_82": {
-      "name": "🎬电影港磁力",
-      "api": "csp_XYQHiker",
-      "detail": "",
-      "_tvbox": {
-        "key": "电影港",
-        "name": "电影港 • 磁力",
-        "type": 3,
-        "api": "csp_XYQHiker",
-        "ext": "./json/DYG.json",
-        "compatible": false
-      }
-    },
-    "site_83": {
+    "site_74": {
       "name": "🎬阿里云盘",
       "api": "csp_PanAli",
       "detail": "",
@@ -1322,7 +1179,7 @@
         "compatible": false
       }
     },
-    "site_84": {
+    "site_75": {
       "name": "🎬夸克网盘",
       "api": "csp_PanQuark",
       "detail": "",
@@ -1348,7 +1205,7 @@
         "compatible": false
       }
     },
-    "site_86": {
+    "site_77": {
       "name": "🎬百度网盘",
       "api": "csp_PanBaidu",
       "detail": "",
@@ -1361,7 +1218,7 @@
         "compatible": false
       }
     },
-    "site_87": {
+    "site_78": {
       "name": "🎬迅雷云盘",
       "api": "csp_PanXunlei",
       "detail": "",
@@ -1374,7 +1231,7 @@
         "compatible": false
       }
     },
-    "site_88": {
+    "site_79": {
       "name": "🎬光鸭云盘",
       "api": "csp_PanGuangya",
       "detail": "",
@@ -1387,7 +1244,7 @@
         "compatible": false
       }
     },
-    "site_89": {
+    "site_80": {
       "name": "🎬天翼云盘",
       "api": "csp_PanTianyi",
       "detail": "",
@@ -1413,7 +1270,7 @@
         "compatible": false
       }
     },
-    "site_91": {
+    "site_82": {
       "name": "🎬聚合搜索",
       "api": "csp_JuheSo",
       "detail": "",
@@ -1426,7 +1283,7 @@
         "compatible": false
       }
     },
-    "site_92": {
+    "site_83": {
       "name": "🎬盘搜搜索",
       "api": "csp_PanSou",
       "detail": "",
@@ -1439,25 +1296,7 @@
         "compatible": false
       }
     },
-    "site_93": {
-      "name": "🎬米搜搜索",
-      "api": "http://gesoso.fun",
-      "detail": "http://gesoso.fun",
-      "_tvbox": {
-        "key": "米搜",
-        "name": "米搜 • 搜索",
-        "type": 3,
-        "api": "csp_MiSou",
-        "ext": {
-          "site": [
-            "http://gesoso.fun",
-            "http://www.misoso.shop"
-          ]
-        },
-        "compatible": false
-      }
-    },
-    "site_94": {
+    "site_84": {
       "name": "🎬百酷搜索",
       "api": "csp_Baiku",
       "detail": "",
@@ -1470,7 +1309,7 @@
         "compatible": false
       }
     },
-    "site_95": {
+    "site_85": {
       "name": "🎬酷乐搜索",
       "api": "csp_KuLe",
       "detail": "",
@@ -1483,7 +1322,7 @@
         "compatible": false
       }
     },
-    "site_96": {
+    "site_86": {
       "name": "🎬鬼鬼搜索",
       "api": "csp_GuiGui",
       "detail": "",
@@ -1496,7 +1335,7 @@
         "compatible": false
       }
     },
-    "site_97": {
+    "site_87": {
       "name": "🎬趣盘搜索",
       "api": "csp_QuPanSo",
       "detail": "",
@@ -1522,7 +1361,7 @@
         "compatible": false
       }
     },
-    "site_99": {
+    "site_89": {
       "name": "🎬瓜子体育",
       "api": "csp_SportsGuazi",
       "detail": "",
@@ -1535,7 +1374,7 @@
         "compatible": false
       }
     },
-    "site_100": {
+    "site_90": {
       "name": "🎬咖啡体育",
       "api": "csp_SportsKafei",
       "detail": "",
@@ -1587,7 +1426,7 @@
         "compatible": false
       }
     },
-    "site_104": {
+    "site_94": {
       "name": "🎬世界听书",
       "api": "csp_TingShijie",
       "detail": "",
@@ -1600,7 +1439,7 @@
         "compatible": false
       }
     },
-    "site_105": {
+    "site_95": {
       "name": "🎬堇夏听书",
       "api": "https://m.ting15.com",
       "detail": "https://m.ting15.com",
@@ -1613,7 +1452,7 @@
         "compatible": false
       }
     },
-    "site_106": {
+    "site_96": {
       "name": "🎬博看听书",
       "api": "csp_TingBokan",
       "detail": "",
@@ -1626,7 +1465,7 @@
         "compatible": false
       }
     },
-    "site_107": {
+    "site_97": {
       "name": "🎬戏曲多多",
       "api": "csp_AppLY",
       "detail": "",
@@ -1639,7 +1478,7 @@
         "compatible": false
       }
     },
-    "site_108": {
+    "site_98": {
       "name": "🎬童趣儿童",
       "api": "csp_TongQu",
       "detail": "",
@@ -1652,7 +1491,7 @@
         "compatible": false
       }
     },
-    "site_109": {
+    "site_99": {
       "name": "🎬兔小贝儿童",
       "api": "csp_TuXiaoBei",
       "detail": "",
@@ -1665,7 +1504,7 @@
         "compatible": false
       }
     },
-    "site_110": {
+    "site_100": {
       "name": "🎬贝乐虎儿童",
       "api": "csp_BeiLeHu",
       "detail": "",
@@ -1678,33 +1517,7 @@
         "compatible": false
       }
     },
-    "site_111": {
-      "name": "🎬爱听音乐",
-      "api": "./py/爱听音乐.py",
-      "detail": "",
-      "_tvbox": {
-        "key": "爱听音乐",
-        "name": "爱听 • 音乐",
-        "type": 3,
-        "api": "./py/爱听音乐.py",
-        "ext": null,
-        "compatible": false
-      }
-    },
-    "site_112": {
-      "name": "🎬网络直播",
-      "api": "csp_ALLLive",
-      "detail": "",
-      "_tvbox": {
-        "key": "网络直播",
-        "name": "网络 • 直播",
-        "type": 3,
-        "api": "csp_ALLLive",
-        "ext": null,
-        "compatible": false
-      }
-    },
-    "site_113": {
+    "site_101": {
       "name": "🎬哔哩音乐",
       "api": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
       "detail": "http://127.0.0.1:9978",
@@ -1720,7 +1533,7 @@
         "compatible": false
       }
     },
-    "site_114": {
+    "site_102": {
       "name": "🎬哔哩听书",
       "api": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
       "detail": "http://127.0.0.1:9978",
@@ -1736,7 +1549,7 @@
         "compatible": false
       }
     },
-    "site_115": {
+    "site_103": {
       "name": "🎬哔哩相声",
       "api": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
       "detail": "http://127.0.0.1:9978",
@@ -1752,7 +1565,7 @@
         "compatible": false
       }
     },
-    "site_116": {
+    "site_104": {
       "name": "🎬哔哩小品",
       "api": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
       "detail": "http://127.0.0.1:9978",
@@ -1768,7 +1581,7 @@
         "compatible": false
       }
     },
-    "site_117": {
+    "site_105": {
       "name": "🎬哔哩戏曲",
       "api": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
       "detail": "http://127.0.0.1:9978",
@@ -1784,7 +1597,7 @@
         "compatible": false
       }
     },
-    "site_118": {
+    "site_106": {
       "name": "🎬少儿教育",
       "api": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
       "detail": "http://127.0.0.1:9978",
@@ -1800,7 +1613,7 @@
         "compatible": false
       }
     },
-    "site_119": {
+    "site_107": {
       "name": "🎬小学课堂",
       "api": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
       "detail": "http://127.0.0.1:9978",
@@ -1816,7 +1629,7 @@
         "compatible": false
       }
     },
-    "site_120": {
+    "site_108": {
       "name": "🎬初中课堂",
       "api": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
       "detail": "http://127.0.0.1:9978",
@@ -1832,7 +1645,7 @@
         "compatible": false
       }
     },
-    "site_121": {
+    "site_109": {
       "name": "🎬高中课堂",
       "api": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
       "detail": "http://127.0.0.1:9978",
@@ -1848,7 +1661,7 @@
         "compatible": false
       }
     },
-    "site_122": {
+    "site_110": {
       "name": "🎬急救教学",
       "api": "csp_FirstAid",
       "detail": "",
@@ -1861,7 +1674,7 @@
         "compatible": false
       }
     },
-    "site_123": {
+    "site_111": {
       "name": "🎬养生知识",
       "api": "csp_YST",
       "detail": "",
@@ -1874,7 +1687,7 @@
         "compatible": false
       }
     },
-    "site_124": {
+    "site_112": {
       "name": "🎬电影天堂",
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
       "detail": "http://caiji.dyttzyapi.com",
@@ -1887,7 +1700,7 @@
         "compatible": true
       }
     },
-    "site_125": {
+    "site_113": {
       "name": "🎬天涯",
       "api": "http://tyyszy.com/api.php/provide/vod",
       "detail": "http://tyyszy.com",
@@ -1900,7 +1713,7 @@
         "compatible": true
       }
     },
-    "site_126": {
+    "site_114": {
       "name": "🎬量子",
       "api": "https://cj.lziapi.com/api.php/provide/vod",
       "detail": "https://cj.lziapi.com",
@@ -1913,7 +1726,7 @@
         "compatible": true
       }
     },
-    "site_127": {
+    "site_115": {
       "name": "🎬非凡",
       "api": "http://ffzy.tv/api.php/provide/vod",
       "detail": "http://ffzy.tv",
@@ -1926,7 +1739,7 @@
         "compatible": true
       }
     },
-    "site_128": {
+    "site_116": {
       "name": "🎬索尼",
       "api": "https://suoniapi.com/api.php/provide/vod",
       "detail": "https://suoniapi.com",
@@ -1939,7 +1752,7 @@
         "compatible": true
       }
     },
-    "site_129": {
+    "site_117": {
       "name": "🎬卧龙资源",
       "api": "https://wolongzyw.com/api.php/provide/vod",
       "detail": "https://wolongzyw.com",
@@ -1965,7 +1778,7 @@
         "compatible": true
       }
     },
-    "site_131": {
+    "site_119": {
       "name": "🎬极速",
       "api": "https://jszyapi.com/api.php/provide/vod",
       "detail": "https://jszyapi.com",
@@ -1978,7 +1791,7 @@
         "compatible": true
       }
     },
-    "site_132": {
+    "site_120": {
       "name": "🎬建安",
       "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
       "detail": "http://154.219.117.232:9981",
@@ -1991,7 +1804,7 @@
         "compatible": true
       }
     },
-    "site_133": {
+    "site_121": {
       "name": "🎬金蝉",
       "api": "https://zy.jinchancaiji.com/api.php/provide/vod",
       "detail": "https://zy.jinchancaiji.com",
@@ -2004,7 +1817,7 @@
         "compatible": true
       }
     },
-    "site_134": {
+    "site_122": {
       "name": "🎬小绵阳",
       "api": "https://vs.okcdn100.top/api.php/provide/vod",
       "detail": "https://vs.okcdn100.top",
@@ -2030,7 +1843,7 @@
         "compatible": true
       }
     },
-    "site_136": {
+    "site_124": {
       "name": "🎬率率",
       "api": "https://suoniapi.com/api.php/provide/vod",
       "detail": "https://suoniapi.com",
@@ -2043,7 +1856,7 @@
         "compatible": true
       }
     },
-    "site_137": {
+    "site_125": {
       "name": "🎬百度",
       "api": "https://api.apibdzy.com/api.php/provide/vod",
       "detail": "https://api.apibdzy.com",
@@ -2056,7 +1869,7 @@
         "compatible": true
       }
     },
-    "site_138": {
+    "site_126": {
       "name": "🎬暴風",
       "api": "https://bfzyapi.com/api.php/provide/vod",
       "detail": "https://bfzyapi.com",
