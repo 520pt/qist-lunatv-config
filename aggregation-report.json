@@ -77,14 +77,14 @@
       },
       {
         "url": "https://raw.githubusercontent.com/smallmain/moontv-aggr-config/main/full-plus18.txt",
-        "api_site": 99,
-        "added": 7,
+        "api_site": 98,
+        "added": 6,
         "duplicates": 92
       }
     ],
     "skipped_duplicates": 359,
     "failed": [],
-    "total_api_site": 129,
+    "total_api_site": 128,
     "total_lives": 0
   }
 }
