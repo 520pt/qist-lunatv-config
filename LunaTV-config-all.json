@@ -646,17 +646,19 @@
       }
     },
     "site_40": {
-      "name": "🎬欧歌4K",
+      "name": "🎬八零4K",
       "api": "https://woog.nxog.eu.org",
       "detail": "https://woog.nxog.eu.org",
       "_tvbox": {
-        "key": "欧歌",
-        "name": "欧歌 • 4K",
+        "key": "八零",
+        "name": "八零 • 4K",
         "type": 3,
         "api": "csp_PanWebShare",
         "ext": {
           "site": [
-            "https://woog.nxog.eu.org"
+            "https://woog.nxog.eu.org",
+            "https://ogkk.nxog.eu.org",
+            "https://woog.430520.xyz"
           ]
         },
         "compatible": false
