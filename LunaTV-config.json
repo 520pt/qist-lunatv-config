@@ -26,11 +26,6 @@
       "api": "https://jszyapi.com/api.php/provide/vod",
       "detail": "https://jszyapi.com"
     },
-    "api_apibdzy_com": {
-      "name": "🎬百度",
-      "api": "https://api.apibdzy.com/api.php/provide/vod",
-      "detail": "https://api.apibdzy.com"
-    },
     "bfzyapi_com": {
       "name": "🎬暴風",
       "api": "https://bfzyapi.com/api.php/provide/vod",

@@ -22,13 +22,13 @@
       {
         "url": "https://raw.githubusercontent.com/smallmain/moontv-aggr-config/main/full.txt",
         "api_site": 63,
-        "added": 23,
-        "duplicates": 40
+        "added": 24,
+        "duplicates": 39
       }
     ],
-    "skipped_duplicates": 166,
+    "skipped_duplicates": 165,
     "failed": [],
-    "total_api_site": 122,
+    "total_api_site": 123,
     "total_lives": 0
   },
   "plus18": {
@@ -54,8 +54,8 @@
       {
         "url": "https://raw.githubusercontent.com/smallmain/moontv-aggr-config/main/full.txt",
         "api_site": 63,
-        "added": 23,
-        "duplicates": 40
+        "added": 24,
+        "duplicates": 39
       },
       {
         "url": "https://raw.githubusercontent.com/hafrey1/LunaTV-config/main/jin18.txt",
@@ -77,14 +77,14 @@
       },
       {
         "url": "https://raw.githubusercontent.com/smallmain/moontv-aggr-config/main/full-plus18.txt",
-        "api_site": 99,
-        "added": 7,
+        "api_site": 97,
+        "added": 5,
         "duplicates": 92
       }
     ],
-    "skipped_duplicates": 359,
+    "skipped_duplicates": 358,
     "failed": [],
-    "total_api_site": 129,
+    "total_api_site": 128,
     "total_lives": 0
   }
 }
