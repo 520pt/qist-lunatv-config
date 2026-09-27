@@ -798,6 +798,19 @@
       }
     },
     "site_50": {
+      "name": "🎬卡卡4K",
+      "api": "csp_KKPan",
+      "detail": "",
+      "_tvbox": {
+        "key": "卡卡",
+        "name": "卡卡 • 4K",
+        "type": 3,
+        "api": "csp_KKPan",
+        "ext": null,
+        "compatible": false
+      }
+    },
+    "site_51": {
       "name": "🎬七猫短剧",
       "api": "csp_ShortQimao",
       "detail": "",
@@ -810,7 +823,7 @@
         "compatible": false
       }
     },
-    "site_51": {
+    "site_52": {
       "name": "🎬河马短剧",
       "api": "csp_ShortHema",
       "detail": "",
@@ -823,7 +836,7 @@
         "compatible": false
       }
     },
-    "site_52": {
+    "site_53": {
       "name": "🎬围观短剧",
       "api": "csp_ShortWeiguan",
       "detail": "",
@@ -836,7 +849,7 @@
         "compatible": false
       }
     },
-    "site_53": {
+    "site_54": {
       "name": "🎬好看短剧",
       "api": "csp_ShortHaokan",
       "detail": "",
@@ -849,7 +862,7 @@
         "compatible": false
       }
     },
-    "site_54": {
+    "site_55": {
       "name": "🎬星芽短剧",
       "api": "csp_ShortXingya",
       "detail": "",
@@ -862,7 +875,7 @@
         "compatible": false
       }
     },
-    "site_55": {
+    "site_56": {
       "name": "🎬果果短剧",
       "api": "https://www.mochadj.com/i/{cateId}-{catePg}.html",
       "detail": "https://www.mochadj.com",
@@ -880,7 +893,7 @@
         "compatible": false
       }
     },
-    "site_56": {
+    "site_57": {
       "name": "🎬飞娱影视",
       "api": "csp_Feiyu",
       "detail": "",
@@ -893,7 +906,7 @@
         "compatible": false
       }
     },
-    "site_57": {
+    "site_58": {
       "name": "🎬独播影视",
       "api": "csp_Duboku",
       "detail": "",
@@ -906,7 +919,7 @@
         "compatible": false
       }
     },
-    "site_58": {
+    "site_59": {
       "name": "🎬厂长影视",
       "api": "https://cz01.vip",
       "detail": "https://cz01.vip",
@@ -919,7 +932,7 @@
         "compatible": false
       }
     },
-    "site_59": {
+    "site_60": {
       "name": "🎬金牌影视",
       "api": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn",
       "detail": "https://y2s52n7.com,https:",
@@ -932,7 +945,7 @@
         "compatible": false
       }
     },
-    "site_60": {
+    "site_61": {
       "name": "🎬骚火影视",
       "api": "https://shdy5.us",
       "detail": "https://shdy5.us",
@@ -945,7 +958,7 @@
         "compatible": false
       }
     },
-    "site_61": {
+    "site_62": {
       "name": "🎬枫叶影视",
       "api": "https://www.vip1949.com/",
       "detail": "https://www.vip1949.com",
@@ -958,7 +971,7 @@
         "compatible": false
       }
     },
-    "site_62": {
+    "site_63": {
       "name": "🎬爱看影视",
       "api": "csp_Ikanbot",
       "detail": "",
@@ -971,7 +984,7 @@
         "compatible": false
       }
     },
-    "site_63": {
+    "site_64": {
       "name": "🎬面包影视",
       "api": "https://v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
       "detail": "https://v.aiwule.com",
@@ -986,25 +999,6 @@
           "分类url": "https://v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
           "分类": "电影$20#电视剧$21#动漫$23#综艺$22#短剧$47",
           "简介": "简介：&&"
-        },
-        "compatible": false
-      }
-    },
-    "site_64": {
-      "name": "🎬永乐影视",
-      "api": "https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
-      "detail": "https://www.ylys.tv",
-      "_tvbox": {
-        "key": "永乐影视",
-        "name": "永乐 • 影视",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "ext": {
-          "请求头": "User-Agent$MOBILE_UA",
-          "编码": "UTF-8",
-          "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-          "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#奇幻片$10#恐怖片$11#剧情片$12#战争片$20#动画片$26#悬疑片$22#冒险片$23#犯罪片$24#惊悚片$45#歌舞片$46#灾难片$47#网络片$48||国产剧$13#港台剧$14#日剧$15#韩剧$33#欧美剧$16#泰剧$34#新马剧$35#其他剧$25||内地综艺$27#港台综艺$28#日本综艺$29#韩国综艺$36#欧美综艺$30#新马泰综艺$37#其他综艺$38||国产动漫$31#日本动漫$32#韩国动漫$39#港台动漫$40#新马泰动漫$41#欧美动漫$42#其他动漫$43",
-          "分类url": "https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"
         },
         "compatible": false
       }
