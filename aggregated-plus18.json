@@ -591,11 +591,6 @@
       "api": "https://maoyanzy.com/api.php/provide/vod",
       "detail": "https://maoyanzy.com"
     },
-    "subocj_com_provide_vod": {
-      "name": "🎬速播资源",
-      "api": "https://subocj.com/api.php/provide/vod",
-      "detail": "https://subocj.com"
-    },
     "ffzy5_tv_provide_vod": {
       "name": "🎬非凡资源站",
       "api": "https://ffzy5.tv/api.php/provide/vod",
@@ -621,20 +616,15 @@
       "api": "https://www.gdlsp.com/api/json.php",
       "detail": "https://www.gdlsp.com"
     },
-    "www_kxgav_com_api_xml_php": {
-      "name": "🔞成人44",
-      "api": "https://www.kxgav.com/api/xml.php",
-      "detail": "https://www.kxgav.com"
+    "www_feifei67_com_provide_vod": {
+      "name": "🔞成人22",
+      "api": "http://www.feifei67.com/api.php/provide/vod",
+      "detail": "http://www.feifei67.com"
     },
     "slapibf_com_provide_vod": {
       "name": "🔞森林资源",
       "api": "https://slapibf.com/api.php/provide/vod",
       "detail": "https://slapibf.com"
-    },
-    "jcspcj8_com_api": {
-      "name": "🔞熊猫资源",
-      "api": "http://jcspcj8.com/api",
-      "detail": "http://jcspcj8.com"
     },
     "hhzyapi_com_at_json": {
       "name": "🔞豪华资源",
