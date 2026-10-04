@@ -586,11 +586,6 @@
       "api": "https://yonghu.ffzyapi8.com/api.php/provide/vod/from/ffm3u8/at/json",
       "detail": "https://yonghu.ffzyapi8.com"
     },
-    "maoyanzy_com_provide_vod": {
-      "name": "🎬猫眼资源",
-      "api": "https://maoyanzy.com/api.php/provide/vod",
-      "detail": "https://maoyanzy.com"
-    },
     "ffzy5_tv_provide_vod": {
       "name": "🎬非凡资源站",
       "api": "https://ffzy5.tv/api.php/provide/vod",
