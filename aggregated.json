@@ -466,6 +466,11 @@
       "api": "https://api.1080zyku.com/inc/api_mac10.php",
       "detail": "https://api.1080zyku.com"
     },
+    "www_iqiyizyapi_com_provide_vod": {
+      "name": "🎬iqiyi资源",
+      "api": "https://www.iqiyizyapi.com/api.php/provide/vod",
+      "detail": "https://www.iqiyizyapi.com"
+    },
     "api_wujinapi_cc_provide_vod": {
       "name": "🎬wujinapi无尽",
       "api": "https://api.wujinapi.cc/api.php/provide/vod",
@@ -475,11 +480,6 @@
       "name": "🎬无尽资源3",
       "api": "https://api.wujinapi.net/api.php/provide/vod",
       "detail": "https://api.wujinapi.net"
-    },
-    "api_niuniuzy_me_provide_vod": {
-      "name": "🎬牛牛点播",
-      "api": "https://api.niuniuzy.me/api.php/provide/vod",
-      "detail": "https://api.niuniuzy.me"
     },
     "api_1080zyku_com_inc_apijson_php": {
       "name": "🎬神马云",
@@ -511,25 +511,10 @@
       "api": "https://jyzyapi.com/provide/vod",
       "detail": "https://jyzyapi.com"
     },
-    "sdzyapi_com_provide_vod": {
-      "name": "🎬闪电资源",
-      "api": "https://sdzyapi.com/api.php/provide/vod",
-      "detail": "https://sdzyapi.com"
-    },
     "ikunzyapi_com_from_ikm3u8": {
       "name": "🎬IK",
       "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8",
       "detail": "https://ikunzyapi.com"
-    },
-    "api_okzyw_net_provide_vod": {
-      "name": "🎬OK资源采集网采集接口",
-      "api": "https://api.okzyw.net/api.php/provide/vod",
-      "detail": "https://okzyw.cc/index.php/label/help.html"
-    },
-    "www_iqiyizyapi_com_provide_vod": {
-      "name": "🎬iqiyi资源",
-      "api": "https://www.iqiyizyapi.com/api.php/provide/vod",
-      "detail": "https://www.iqiyizyapi.com"
     },
     "cdn_dzzyapi_com_provide_vod": {
       "name": "🎬大众资源采集接口",
@@ -556,6 +541,11 @@
       "api": "https://api.wsyzy.net/api.php/provide/vod",
       "detail": "https://api.wsyzy.net"
     },
+    "api_niuniuzy_me_provide_vod": {
+      "name": "🎬牛牛点播",
+      "api": "https://api.niuniuzy.me/api.php/provide/vod",
+      "detail": "https://api.niuniuzy.me"
+    },
     "maoyanzy_com_provide_vod": {
       "name": "🎬猫眼资源",
       "api": "https://maoyanzy.com/api.php/provide/vod",
@@ -565,6 +555,11 @@
       "name": "🎬速播资源",
       "api": "https://subocj.com/api.php/provide/vod",
       "detail": "https://subocj.com"
+    },
+    "sdzyapi_com_provide_vod": {
+      "name": "🎬閃電资源",
+      "api": "https://sdzyapi.com/api.php/provide/vod",
+      "detail": "https://sdzyapi.com"
     },
     "ffzy5_tv_provide_vod": {
       "name": "🎬非凡资源站",
