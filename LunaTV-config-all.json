@@ -785,19 +785,6 @@
       }
     },
     "site_48": {
-      "name": "🎬人人4K",
-      "api": "csp_RenRen",
-      "detail": "",
-      "_tvbox": {
-        "key": "人人",
-        "name": "人人 • 4K",
-        "type": 3,
-        "api": "csp_RenRen",
-        "ext": null,
-        "compatible": false
-      }
-    },
-    "site_49": {
       "name": "🎬即刻4K",
       "api": "csp_Jike",
       "detail": "",
@@ -810,7 +797,7 @@
         "compatible": false
       }
     },
-    "site_50": {
+    "site_49": {
       "name": "🎬双星4K",
       "api": "csp_ShuangXing",
       "detail": "",
@@ -823,7 +810,7 @@
         "compatible": false
       }
     },
-    "site_51": {
+    "site_50": {
       "name": "🎬卡卡4K",
       "api": "csp_KKPan",
       "detail": "",
@@ -832,6 +819,19 @@
         "name": "卡卡 • 4K",
         "type": 3,
         "api": "csp_KKPan",
+        "ext": null,
+        "compatible": false
+      }
+    },
+    "site_51": {
+      "name": "🎬红果短剧",
+      "api": "./py/红果短剧.py",
+      "detail": "",
+      "_tvbox": {
+        "key": "红果短剧",
+        "name": "红果 • 短剧",
+        "type": 3,
+        "api": "./py/红果短剧.py",
         "ext": null,
         "compatible": false
       }
