@@ -1449,13 +1449,13 @@
     },
     "site_96": {
       "name": "🎬世界听书",
-      "api": "csp_TingShijie",
+      "api": "./py/世界听书.py",
       "detail": "",
       "_tvbox": {
         "key": "世界听书",
         "name": "世界 • 听书",
         "type": 3,
-        "api": "csp_TingShijie",
+        "api": "./py/世界听书.py",
         "ext": null,
         "compatible": false
       }
