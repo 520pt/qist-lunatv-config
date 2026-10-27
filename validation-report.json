@@ -15,12 +15,12 @@
       "playable": 13
     },
     {
-      "key": "ffzy_tv",
-      "name": "🎬非凡",
-      "api": "http://ffzy.tv/api.php/provide/vod",
+      "key": "cj_lziapi_com",
+      "name": "🎬量子",
+      "api": "https://cj.lziapi.com/api.php/provide/vod",
       "keyword": "斗罗",
-      "results": 17,
-      "playable": 17
+      "results": 20,
+      "playable": 20
     },
     {
       "key": "api_ukuapi_com",
@@ -63,10 +63,10 @@
       "error": "仙逆: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
     },
     {
-      "key": "cj_lziapi_com",
-      "name": "🎬量子",
-      "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "error": "仙逆: TimeoutError: The read operation timed out"
+      "key": "ffzy_tv",
+      "name": "🎬非凡",
+      "api": "http://ffzy.tv/api.php/provide/vod",
+      "error": "仙逆: HTTPError: HTTP Error 403: Forbidden"
     },
     {
       "key": "suoniapi_com",
