@@ -531,6 +531,11 @@
       "api": "https://api.okzyw.net/api.php/provide/vod",
       "detail": "https://okzyw.cc/index.php/label/help.html"
     },
+    "cjhwba_com_provide_vod": {
+      "name": "🎬华为吧资源",
+      "api": "https://cjhwba.com/api.php/provide/vod",
+      "detail": "https://cjhwba.com"
+    },
     "cdn_dzzyapi_com_provide_vod": {
       "name": "🎬大众资源采集接口",
       "api": "https://cdn.dzzyapi.com/api.php/provide/vod",
