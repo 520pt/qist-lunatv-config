@@ -7,6 +7,14 @@
   ],
   "supported": [
     {
+      "key": "api_juliang_live",
+      "name": "🎬巨量影视",
+      "api": "https://api.juliang.live/api/provide/vod",
+      "keyword": "斗罗",
+      "results": 20,
+      "playable": 20
+    },
+    {
       "key": "caiji_dyttzyapi_com",
       "name": "🎬电影天堂",
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
@@ -29,14 +37,6 @@
       "keyword": "斗罗",
       "results": 17,
       "playable": 17
-    },
-    {
-      "key": "api_ukuapi_com",
-      "name": "🎬尤酷",
-      "api": "https://api.ukuapi.com/api.php/provide/vod",
-      "keyword": "斗罗",
-      "results": 10,
-      "playable": 10
     },
     {
       "key": "jszyapi_com",
@@ -83,6 +83,12 @@
       "error": "仙逆: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
     },
     {
+      "key": "api_ukuapi_com",
+      "name": "🎬尤酷",
+      "api": "https://api.ukuapi.com/api.php/provide/vod",
+      "error": "仙逆: HTTPError: HTTP Error 502: Bad Gateway"
+    },
+    {
       "key": "154_219_117_232_9981",
       "name": "🎬建安",
       "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
@@ -101,7 +107,7 @@
       "error": "仙逆: HTTPError: HTTP Error 404: Not Found"
     }
   ],
-  "candidate_count": 13,
+  "candidate_count": 14,
   "supported_count": 7,
   "live_count": 3
 }

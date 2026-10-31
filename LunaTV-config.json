@@ -1,6 +1,11 @@
 {
   "cache_time": 7200,
   "api_site": {
+    "api_juliang_live": {
+      "name": "🎬巨量影视",
+      "api": "https://api.juliang.live/api/provide/vod",
+      "detail": "https://api.juliang.live"
+    },
     "caiji_dyttzyapi_com": {
       "name": "🎬电影天堂",
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
@@ -15,11 +20,6 @@
       "name": "🎬非凡",
       "api": "http://ffzy.tv/api.php/provide/vod",
       "detail": "http://ffzy.tv"
-    },
-    "api_ukuapi_com": {
-      "name": "🎬尤酷",
-      "api": "https://api.ukuapi.com/api.php/provide/vod",
-      "detail": "https://api.ukuapi.com"
     },
     "jszyapi_com": {
       "name": "🎬极速",
