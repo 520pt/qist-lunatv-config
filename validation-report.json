@@ -42,9 +42,9 @@
       "key": "api_ukuapi_com",
       "name": "🎬尤酷",
       "api": "https://api.ukuapi.com/api.php/provide/vod",
-      "keyword": "庆余年",
-      "results": 3,
-      "playable": 3
+      "keyword": "斗罗",
+      "results": 10,
+      "playable": 10
     },
     {
       "key": "jszyapi_com",
