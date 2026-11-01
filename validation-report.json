@@ -26,7 +26,7 @@
       "key": "cj_lziapi_com",
       "name": "🎬量子",
       "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "keyword": "凡人",
+      "keyword": "斗罗",
       "results": 20,
       "playable": 20
     },
@@ -42,9 +42,9 @@
       "key": "api_ukuapi_com",
       "name": "🎬尤酷",
       "api": "https://api.ukuapi.com/api.php/provide/vod",
-      "keyword": "斗罗",
-      "results": 10,
-      "playable": 10
+      "keyword": "庆余年",
+      "results": 3,
+      "playable": 3
     },
     {
       "key": "jszyapi_com",
