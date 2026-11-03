@@ -1,11 +1,6 @@
 {
   "cache_time": 7200,
   "api_site": {
-    "api_juliang_live": {
-      "name": "🎬巨量影视",
-      "api": "https://api.juliang.live/api/provide/vod",
-      "detail": "https://api.juliang.live"
-    },
     "caiji_dyttzyapi_com": {
       "name": "🎬电影天堂",
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
