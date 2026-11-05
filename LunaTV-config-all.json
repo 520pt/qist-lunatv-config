@@ -1165,14 +1165,19 @@
     },
     "site_75": {
       "name": "🎬荐片磁力",
-      "api": "csp_JianPian",
-      "detail": "",
+      "api": "https://www.whhyn.com",
+      "detail": "https://www.whhyn.com",
       "_tvbox": {
         "key": "荐片",
         "name": "荐片 • 磁力",
         "type": 3,
         "api": "csp_JianPian",
-        "ext": null,
+        "ext": {
+          "site": [
+            "https://www.whhyn.com",
+            "https://www.zxfmj.com"
+          ]
+        },
         "compatible": false
       }
     },
