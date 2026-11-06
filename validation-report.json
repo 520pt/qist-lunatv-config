@@ -23,22 +23,6 @@
       "playable": 20
     },
     {
-      "key": "ffzy_tv",
-      "name": "🎬非凡",
-      "api": "http://ffzy.tv/api.php/provide/vod",
-      "keyword": "斗罗",
-      "results": 17,
-      "playable": 17
-    },
-    {
-      "key": "api_ukuapi_com",
-      "name": "🎬尤酷",
-      "api": "https://api.ukuapi.com/api.php/provide/vod",
-      "keyword": "斗罗",
-      "results": 10,
-      "playable": 10
-    },
-    {
       "key": "jszyapi_com",
       "name": "🎬极速",
       "api": "https://jszyapi.com/api.php/provide/vod",
@@ -71,6 +55,12 @@
       "error": "仙逆: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
     },
     {
+      "key": "ffzy_tv",
+      "name": "🎬非凡",
+      "api": "http://ffzy.tv/api.php/provide/vod",
+      "error": "仙逆: HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
       "key": "suoniapi_com",
       "name": "🎬索尼",
       "api": "https://suoniapi.com/api.php/provide/vod",
@@ -81,6 +71,12 @@
       "name": "🎬卧龙资源",
       "api": "https://wolongzyw.com/api.php/provide/vod",
       "error": "仙逆: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "key": "api_ukuapi_com",
+      "name": "🎬尤酷",
+      "api": "https://api.ukuapi.com/api.php/provide/vod",
+      "error": "仙逆: HTTPError: HTTP Error 502: Bad Gateway"
     },
     {
       "key": "154_219_117_232_9981",
@@ -102,6 +98,6 @@
     }
   ],
   "candidate_count": 13,
-  "supported_count": 7,
+  "supported_count": 5,
   "live_count": 3
 }
