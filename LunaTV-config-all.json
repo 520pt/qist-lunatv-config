@@ -933,6 +933,19 @@
       }
     },
     "site_59": {
+      "name": "🎬星辰影视",
+      "api": "csp_XingChen",
+      "detail": "",
+      "_tvbox": {
+        "key": "星辰影视",
+        "name": "星辰 • 影视",
+        "type": 3,
+        "api": "csp_XingChen",
+        "ext": null,
+        "compatible": false
+      }
+    },
+    "site_60": {
       "name": "🎬飞娱影视",
       "api": "csp_Feiyu",
       "detail": "",
@@ -945,7 +958,7 @@
         "compatible": false
       }
     },
-    "site_60": {
+    "site_61": {
       "name": "🎬旺旺影视",
       "api": "https://vip.wwgz.cn:5200",
       "detail": "https://vip.wwgz.cn:5200",
@@ -958,7 +971,7 @@
         "compatible": false
       }
     },
-    "site_61": {
+    "site_62": {
       "name": "🎬独播影视",
       "api": "csp_Duboku",
       "detail": "",
@@ -971,7 +984,7 @@
         "compatible": false
       }
     },
-    "site_62": {
+    "site_63": {
       "name": "🎬瓜子影视",
       "api": "csp_Gz360",
       "detail": "",
@@ -984,7 +997,7 @@
         "compatible": false
       }
     },
-    "site_63": {
+    "site_64": {
       "name": "🎬厂长影视",
       "api": "https://cz01.vip",
       "detail": "https://cz01.vip",
@@ -997,7 +1010,7 @@
         "compatible": false
       }
     },
-    "site_64": {
+    "site_65": {
       "name": "🎬金牌影视",
       "api": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn",
       "detail": "https://y2s52n7.com,https:",
@@ -1010,7 +1023,7 @@
         "compatible": false
       }
     },
-    "site_65": {
+    "site_66": {
       "name": "🎬骚火影视",
       "api": "https://shdy5.us",
       "detail": "https://shdy5.us",
@@ -1023,7 +1036,7 @@
         "compatible": false
       }
     },
-    "site_66": {
+    "site_67": {
       "name": "🎬枫叶影视",
       "api": "https://www.vip1949.com/",
       "detail": "https://www.vip1949.com",
@@ -1036,7 +1049,7 @@
         "compatible": false
       }
     },
-    "site_67": {
+    "site_68": {
       "name": "🎬爱看影视",
       "api": "csp_Ikanbot",
       "detail": "",
@@ -1046,25 +1059,6 @@
         "type": 3,
         "api": "csp_Ikanbot",
         "ext": null,
-        "compatible": false
-      }
-    },
-    "site_68": {
-      "name": "🎬面包影视",
-      "api": "https://v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
-      "detail": "https://v.aiwule.com",
-      "_tvbox": {
-        "key": "面包影视",
-        "name": "面包 • 影视",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "ext": {
-          "请求头": "User-Agent$MOBILE_UA",
-          "编码": "UTF-8",
-          "分类url": "https://v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
-          "分类": "电影$20#电视剧$21#动漫$23#综艺$22#短剧$47",
-          "简介": "简介：&&"
-        },
         "compatible": false
       }
     },
