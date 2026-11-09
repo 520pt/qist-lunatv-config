@@ -15,12 +15,12 @@
       },
       {
         "url": "https://raw.githubusercontent.com/smallmain/moontv-aggr-config/main/full.txt",
-        "api_site": 63,
+        "api_site": 62,
         "added": 26,
-        "duplicates": 37
+        "duplicates": 36
       }
     ],
-    "skipped_duplicates": 94,
+    "skipped_duplicates": 93,
     "failed": [
       {
         "url": "https://raw.githubusercontent.com/netput-web/LunaTV-config/main/LunaTV-config.txt",
@@ -46,9 +46,9 @@
       },
       {
         "url": "https://raw.githubusercontent.com/smallmain/moontv-aggr-config/main/full.txt",
-        "api_site": 63,
+        "api_site": 62,
         "added": 26,
-        "duplicates": 37
+        "duplicates": 36
       },
       {
         "url": "https://raw.githubusercontent.com/hafrey1/LunaTV-config/main/jin18.txt",
@@ -65,11 +65,11 @@
       {
         "url": "https://raw.githubusercontent.com/smallmain/moontv-aggr-config/main/full-plus18.txt",
         "api_site": 96,
-        "added": 6,
-        "duplicates": 90
+        "added": 7,
+        "duplicates": 89
       }
     ],
-    "skipped_duplicates": 256,
+    "skipped_duplicates": 254,
     "failed": [
       {
         "url": "https://raw.githubusercontent.com/netput-web/LunaTV-config/main/LunaTV-config.txt",
@@ -80,7 +80,7 @@
         "error": "HTTPError: HTTP Error 404: Not Found"
       }
     ],
-    "total_api_site": 122,
+    "total_api_site": 123,
     "total_lives": 0
   }
 }
