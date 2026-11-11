@@ -64,8 +64,8 @@
       },
       {
         "url": "https://raw.githubusercontent.com/smallmain/moontv-aggr-config/main/full-plus18.txt",
-        "api_site": 96,
-        "added": 7,
+        "api_site": 95,
+        "added": 6,
         "duplicates": 89
       }
     ],
@@ -80,7 +80,7 @@
         "error": "HTTPError: HTTP Error 404: Not Found"
       }
     ],
-    "total_api_site": 123,
+    "total_api_site": 122,
     "total_lives": 0
   }
 }
