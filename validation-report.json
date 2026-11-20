@@ -39,14 +39,6 @@
       "playable": 10
     },
     {
-      "key": "jszyapi_com",
-      "name": "🎬极速",
-      "api": "https://jszyapi.com/api.php/provide/vod",
-      "keyword": "斗罗",
-      "results": 20,
-      "playable": 20
-    },
-    {
       "key": "api_apibdzy_com",
       "name": "🎬百度",
       "api": "https://api.apibdzy.com/api.php/provide/vod",
@@ -83,6 +75,12 @@
       "error": "仙逆: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
     },
     {
+      "key": "jszyapi_com",
+      "name": "🎬极速",
+      "api": "https://jszyapi.com/api.php/provide/vod",
+      "error": "仙逆: HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
       "key": "154_219_117_232_9981",
       "name": "🎬建安",
       "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
@@ -102,6 +100,6 @@
     }
   ],
   "candidate_count": 13,
-  "supported_count": 7,
+  "supported_count": 6,
   "live_count": 3
 }
