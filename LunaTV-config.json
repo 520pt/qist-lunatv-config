@@ -21,6 +21,11 @@
       "api": "https://api.ukuapi.com/api.php/provide/vod",
       "detail": "https://api.ukuapi.com"
     },
+    "jszyapi_com": {
+      "name": "🎬极速",
+      "api": "https://jszyapi.com/api.php/provide/vod",
+      "detail": "https://jszyapi.com"
+    },
     "api_apibdzy_com": {
       "name": "🎬百度",
       "api": "https://api.apibdzy.com/api.php/provide/vod",
