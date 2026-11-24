@@ -627,23 +627,6 @@
       }
     },
     "site_39": {
-      "name": "🎬闪电4K",
-      "api": "http://shandian.blog",
-      "detail": "http://shandian.blog",
-      "_tvbox": {
-        "key": "闪电",
-        "name": "闪电 • 4K",
-        "type": 3,
-        "api": "csp_PanWebShare",
-        "ext": {
-          "site": [
-            "http://shandian.blog"
-          ]
-        },
-        "compatible": false
-      }
-    },
-    "site_40": {
       "name": "🎬蜡笔4K",
       "api": "https://www.fmcf.fun",
       "detail": "https://www.fmcf.fun",
@@ -658,6 +641,24 @@
             "https://www.mmpanpan.site",
             "http://tvpanpan.site",
             "http://www.tvpanpan.site"
+          ]
+        },
+        "compatible": false
+      }
+    },
+    "site_40": {
+      "name": "🎬闪电4K",
+      "api": "http://oo.sduc.site",
+      "detail": "http://oo.sduc.site",
+      "_tvbox": {
+        "key": "闪电",
+        "name": "闪电 • 4K",
+        "type": 3,
+        "api": "csp_PanWebShare",
+        "ext": {
+          "site": [
+            "http://oo.sduc.site",
+            "http://sd.sduc.site"
           ]
         },
         "compatible": false
