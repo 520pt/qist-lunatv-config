@@ -511,6 +511,11 @@
       "api": "https://jyzyapi.com/provide/vod",
       "detail": "https://jyzyapi.com"
     },
+    "sdzyapi_com_provide_vod": {
+      "name": "🎬闪电资源",
+      "api": "https://sdzyapi.com/api.php/provide/vod",
+      "detail": "https://sdzyapi.com"
+    },
     "ikunzyapi_com_from_ikm3u8": {
       "name": "🎬IK",
       "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8",
@@ -560,11 +565,6 @@
       "name": "🎬速播资源",
       "api": "https://subocj.com/api.php/provide/vod",
       "detail": "https://subocj.com"
-    },
-    "sdzyapi_com_provide_vod": {
-      "name": "🎬閃電资源",
-      "api": "https://sdzyapi.com/api.php/provide/vod",
-      "detail": "https://sdzyapi.com"
     },
     "ffzy5_tv_provide_vod": {
       "name": "🎬非凡资源站",
