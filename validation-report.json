@@ -23,14 +23,6 @@
       "playable": 20
     },
     {
-      "key": "ffzy_tv",
-      "name": "🎬非凡",
-      "api": "http://ffzy.tv/api.php/provide/vod",
-      "keyword": "斗罗",
-      "results": 17,
-      "playable": 17
-    },
-    {
       "key": "api_ukuapi_com",
       "name": "🎬尤酷",
       "api": "https://api.ukuapi.com/api.php/provide/vod",
@@ -71,6 +63,12 @@
       "error": "仙逆: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
     },
     {
+      "key": "ffzy_tv",
+      "name": "🎬非凡",
+      "api": "http://ffzy.tv/api.php/provide/vod",
+      "error": "仙逆: HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
       "key": "suoniapi_com",
       "name": "🎬索尼",
       "api": "https://suoniapi.com/api.php/provide/vod",
@@ -102,6 +100,6 @@
     }
   ],
   "candidate_count": 13,
-  "supported_count": 7,
+  "supported_count": 6,
   "live_count": 3
 }
